@@ -12,22 +12,33 @@ Reposted from [Mudinfo.net](https://www.mudinfo.net/viewtopic.php?t=2050#:~:text
 
 "MajorMud was officially released on November 4, 1994. The game was created by was created by Lance and Cathy (Dog) Neumann, Michael Skupa (Cat), Craig Young (Morukai), and Geoffrey Rosen (Orfeo) in the early 1990s. Collectively they were known as West Coast Creations, or WCC. On May 25, 1999, WCC sold MajorMUD to Metropolis, a company based in Kansas, USA. Metropolis promised to continue the work done by WCC. Over the years, 9 expansions modules were added, with the first 6 developed by WCC and the last 3 by Metropolis. On April 10, 2008 Metropolis Gameport shut down and sold all 7 of their Worldgroup BBS Game Servers. All updates, maintenance, and user support has been halted."
 
-# Other Notable Projects
+# Other Living MajorMUD Projects
 
 Here is a list of still alive projects that have furthered MajorMUD development after it's closed source development ended in Mod9.
 
 ### Void BBS
-Homepage: https://www.mbbsemu.com
+Homepage: https://www.voidbbs.com
+
+Telnet: voidbbs.com:23
 
 Kyau, the SYSOP of this BBS has modernized his BBS and utilized the databases in a modern web format. The MajorMUD itself has been customized highly with many quality-of-life edits, but kept balance and stayed close to stock.
+
+### Bear's BBS
+Homepage: http://bearfather.net
+
+Telnet: bbs.bearfather.net:23
 
 ### Greatermud
 
 Homepage: http://forums.greatermud.com/forums/index.php
 
+Telnet: greatermud.com:23
+
 I haven't played this MUD, but it seems like an entire recreate of MajorMUD, with many additions. It has since forked into Paradigm MUD or ParaMUD.
 
-http://forums.paramud.com
+### ParaMUD
 
-....
+Homepage: http://forums.paramud.com
+
+Telnet mud.paramud.com:23 
 
