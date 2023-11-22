@@ -1,0 +1,4531 @@
+This program must be run under Win32
+Borland C++ - Copyright 1995 Borland Intl.
+Nonshared DATA segment required
+Cannot run multiple instances of a DLL under WIN32s
+LOCALNAME() LASTNAME() RACE CLASS BASE_STR MAX_STR TOT_STR(MIN=10, MAX=250) BASE_INT MAX_INT TOT_INT(MIN=10, MAX=250) BASE_WISDOM MAX_WISDOM TOT_WISDOM(MIN=10, MAX=250) BASE_AGIL MAX_AGIL TOT_AGIL(MIN=10, MAX=250) BASE_HEALTH MAX_HEALTH TOT_HEALTH(MIN=10, MAX=250) BASE_CHAR MAX_CHAR TOT_CHAR(MIN=10, MAX=250) HAIR_LEN(ALT=None ALT=Short ALT=Shoulder-Length ALT=Long ALT=Waist-length ALT=Ankle-Length MULTICHOICE) HAIR_COL(ALT=Black ALT=White ALT=Silver ALT=Red ALT=Brown ALT=Dark-Brown ALT=Blonde ALT=Green ALT=Blue ALT=Grey MULTICHOICE) EYE_COL(ALT=Black ALT=Crimson ALT=Yellow ALT=Pale-Blue ALT=Sea-Blue ALT=Dark-Blue ALT=Grey-Blue ALT=Slate-Grey ALT=Bright-Green ALT=Forest-Green ALT=Pale-Green ALT=Chesnut-Brown ALT=Dark-Brown ALT=Hazel ALT=Violet ALT=Lavender ALT=Golden MULTICHOICE) SAVE(ALT=SAVE ALT=EDIT ALT=QUIT MULTICHOICE)
+LOCALNAME=%s%cLASTNAME=%s%cRACE=%s%cCLASS=%s%cBASE_STR=%d%cMAX_STR=%d%cTOT_STR=%d%cBASE_INT=%d%cMAX_INT=%d%cTOT_INT=%d%cBASE_WISDOM=%d%cMAX_WISDOM=%d%cTOT_WISDOM=%d%cBASE_AGIL=%d%cMAX_AGIL=%d%cTOT_AGIL=%d%cBASE_HEALTH=%d%cMAX_HEALTH=%d%cTOT_HEALTH=%d%cBASE_CHAR=%d%cMAX_CHAR=%d%cTOT_CHAR=%d%cHAIR_LEN=%s%cHAIR_COL=%s%cEYE_COL=%s%cSAVE=%s%c
+1.11p-WG3NT (Dec 30 2005 14:20:26)
+1.11p-WG3NT
+N/A
+%ld
+HIGH
+MEDIUM
+LOW
+NONE
+tcplibm.msg
+SUBBBS
+MajorMUD v%s
+MajorMUD Allocating buffers and reading CNF
+WCCMMUD.MDF
+WCCMMHLP.MCV
+Cannot open WCCMMHLP.MCV!
+WCCTEXT.MCV
+Cannot open WCCTEXT.MCV!
+WCCMMUD.MCV
+Cannot open WCCMMUD.MCV!
+.\%%s
+WCCRACE2.DAT
+WCCCLAS2.DAT
+WCCUSER2.DAT
+WCCMP002.DAT
+WCCACMS2.DAT
+WCCSHOP2.DAT
+WCCITEM2.DAT
+WCCITOW2.DAT
+WCCSPEL2.DAT
+WCCKNMS2.DAT
+WCCBANK2.DAT
+WCCMSG2.DAT
+WCCTEXT2.DAT
+WCCGANG2.DAT
+WCCACTS2.DAT
+WCCVACN2.DAT
+Invalid Activation code entered!
+MajorMUD - Demo Mode
+Expires on %s
+INVALID ROOM
+Invalid starting room
+Invalid reincarnation room
+Invalid evil reincarnation room
+Invalid jail room
+WCCRECOV.FLG
+MajorMUD Recovery required
+MajorMUD - %d users
+MajorMUD Buffers allocated and CNF options verified
+DEMO MODE ACTIVATED
+Game play and sysop control limited
+MUDCHARINFO
+MajorMUD - Notice
+Recovery not completed - leaving flag file
+Offline recovery required - leaving flag file
+Error
+You may not use %s as your name.
+Please enter a new name: 
+[1;37m| 
+We're sorry, but the game is currently full.
+Please ask your sysop to upgrade his/her user license!
+[1;30m[
+[0mMAJORMUD
+[1;30m]
+[0m: 
+[0;37;40m| 
+Too many users
+[79D
+[K| 
+%s just entered the Realm.
+*** MajorMUD Tournament Play enabled! ***
+[%d;%df
+[0m| 
+%4d
+You have %d CP to distribute.
+TOT_STR
+TOT_INT
+TOT_WISDOM
+TOT_AGIL
+TOT_HEALTH
+TOT_CHAR
+You have entered an invalid name!
+Your given name can only be 10 characters long!
+Only ALPHA characters are allowed in a name!
+You must enter a last name!
+Your family name can only be 18 characters long!
+Strength may not be lower than %d.
+Strength may not be higher than %d.
+You may not assign that much to Strength
+Intellect may not be lower than %d.
+Intellect may not be higher than %d.
+You may not assign that much to Intellect
+Willpower may not be lower than %d.
+Willpower may not be higher than %d.
+You may not assign that much to Willpower
+Agility may not be lower than %d.
+Agility may not be higher than %d.
+You may not assign that much to Agility
+Health may not be lower than %d.
+Health may not be higher than %d.
+You may not assign that much to Health
+Charm may not be lower than %d.
+Charm may not be higher than %d.
+You may not assign that much to Charm
+You MUST have a last name!
+You will have to start over again.
+Press Enter.
+Your last name contains invalid characters!
+You will have to start over again.
+Press Enter.
+[1;31m| 
+The name you have chosen is invalid!
+You will have to start over again.
+Press Enter.
+The name you have chosen is already in use!
+You will have to start over again.
+Press Enter.
+You have previously created a character while you where paying.
+As unpaid accounts may not save characters, you may not play this
+character until you have switched to a paying class again.
+To prevent accidental suicide or reroll, these commands
+have been password protected.  You have not yet entered
+your suicide password, so please do so soon using the
+SET SUICIDE command.
+[1;36m| 
+Please wait - Validating your name.
+SAVE
+     M A J O R   M U D
+     Character Generator
++-    Point Cost Chart    -+
+|                          |
+| 1st 10 points: 1 CP each |
+| 2nd 10 points: 2 CP each |
+| 3rd 10 points: 3 CP each |
+|     ... and so on ...    |
+|                          |
+| +10 to base stat:  10 CP |
+| +20 to base stat:  30 CP |
+| +30 to base stat:  60 CP |
+| +40 to base stat: 100 CP |
+| +50 to base stat: 150 CP |
++-    ... and so on ...   -+
+Strength  %d - %d
+Intellect %d - %d
+Willpower %d - %d
+Agility   %d - %d
+Health    %d - %d
+Charm     %d - %d
+[1;30m[
+[0mMAJORMUD
+[1;30m]
+[0m: 
+WCCADDON.SYS
+Current codes:
+No codes defined yet.
+Add code for which addon? (x=exit):
+Enter Help Topic (x=exit,?=list) >
+Help
+Update file name (x=Exit): 
+The update is now in progress.
+Please do not hang-up or exit.
+Updating:  
+File not found or invalid.
+[1;30m[
+[0mMAJORMUD Sysop
+[1;30m]
+[0m: 
+Validating your name, please wait.
+Please enter a new name or X to exit:
+Your name may only be 10 characters long.
+Please try another one: 
+You may not use that name.
+The name you have chosen is invalid!
+Error.
+Cancelled
+Clearing:  
+Cancelled - Please run fast-offline-recovery as soon as possible
+Reindexing Limited Items:  
+Checking for deleted users:  
+Checking for users with limited items:  
+Cancelled Checking Users
+Delete this user? (THERE IS NO UNDO) :
+Limit on minutes of play: %d
+New days without playing: 
+Days without playing: %d
+New experience limit: 
+Experience limit to check: %d
+[SYSOP MENU]
+C - Clear all saved evil points
+CP- Clear all saved profiles (for resetting only)
+U - Apply an update
+R - Reindex the Limited Items  (RF = Full reindex)
+D - Check for defunct MUD users, etc.
+H - Check for item hoarders
+I - Sysop Instructions (wccmmud.rln)
+N - Sysop Release notes (wccmmsys.rel)
+S - Online Sysop Command Help (wccmmsys.not)
+B - Edit the sysop bulletin file
+E - Edit the wccmmud.ini file (only if it is small)
+L - Change the limits for defunct user checking
+A - Addon module activation codes
+X - Exit to Main Menu
+The addon code must be a number!
+Enter the code you were given:
+%ld:%s
+Activation code added.
+Error opening file! Please create manually.
+This option has been obsoleted.  The offline recovery program will run after the next shutdown.
+Currently all users who have played less than %d minutes,
+or who have not played in %d days,
+or who have less than %d experience,
+will be listed in the defunct user checking.
+New limit on minutes of play: 
+Hit any key to continue...
+WCCMMUD.RLN
+WCCMMSYS.REL
+WCCMMSYS.NOT
+WARNING:  If you enter an invalid update database file at
+          the following prompt, your board WILL CATASTRO
+          and therefore crash.  Type X to stop now.
+What is the name of the update file: 
+Error - no clearing performed.
+sysop
+changerace
+Have you read all the help files on the races and classes?
+(You must answer YES to continue): 
+There is a severe problem with the databases on this system.
+Keep trying to enter the game and it may resolve itself.
+It is not automatically resolvable.
+Please ask your sysop to re-apply the latest database update.
+We're sorry, but you do not have the appropriate key to play this game.
+Please ask your sysop for access.
+We're sorry but you may not play MajorMUD on this system.
+Please contact your local sysop and ask them to purchase MajorMUD from
+Metropolis (http://www.majormud.com or 913-661-0601)
+[79D
+[K| 
+[1;31m| 
+You have run out of credits for Major Mud.
+Please choose a race from the following list:
+You have trained too far to continue playing with an unpaid account.
+Please contact your sysop to purchase time on this system to continue
+playing MajorMUD.
+WCCMMUD.NOT
+[40m
+[2J
+[1C
+[0m
+[2;1H 
+[76C
+[3;1H 
+[27C
+[1;34mM A J O R   M U D
+[32C
+[0m
+[4;1H 
+[76C
+[5;1H 
+    We would like to thank the users of the following boards in their
+[7C
+[6;1H 
+    assistance and ideas during the BETA testing phase of this program.
+[5C
+[7;1H 
+[76C
+[8;1H 
+[6CArgus Information
+[5CGameland
+[13CRock Garden
+[16C
+[9;1H 
+[6CComputer Source
+[7CGranola Board
+[8CThe ADEPT
+[18C
+[10;1H 
+[6CComputrek
+[13CMagic Bus
+[12CThe Castle
+[17C
+[11;1H 
+[6CCreative Cafe
+[9CMalum
+[16CThe Imposium
+[15C
+[12;1H 
+[6CCybercomm
+[13CMasterpiece
+[10CThe Link          
+[9C
+[13;1H 
+[6CCyberspace
+[12CMetropolis
+[11CTrilogy
+[20C
+[14;1H 
+[6CFarwest
+[15CMulti-comm
+[11CWest Coast Connection
+[6C
+[15;1H 
+[76C
+[16;1H 
+   If you wish to contact the creators of MajorMUD, visit our website at    
+[17;1H 
+   http://www.majormud.com                                                  
+[18;1H 
+[76C
+[19;1H 
+[76C
+[20;1H 
+[8C
+[1;30mCopyright (c) 1992-2001 Metropolis Inc. All Rights Reserved.        
+[0m
+[21;1H 
+[22;1H
+[23;1H
+[24;1H
+[25;1H
+[0m
+[255D
+ +----------------------------------------------------------------------------+
+ |                                                                            |
+ |                           M A J O R   M U D                                |
+ |    We would like to thank the users of the following boards in their       |
+ |    assistance and ideas during the BETA testing phase of this program.     |
+ |      Argus Information     Gameland             Rock Garden                |
+ |      Computer Source       Granola Board        The ADEPT                  |
+ |      Computrek             Magic Bus            The Castle                 |
+ |      Creative Cafe         Malum                The Imposium               |
+ |      Cybercomm             Masterpiece          The Link                   |
+ |      Cyberspace            Metropolis           Trilogy                    |
+ |      Farwest               Multi-comm           Dreamscape OES             |
+ |  If you wish to contact the creators of MajorMUD, please visit our         |
+ |  website at http://www.majormud.com                                        |
+ |      Copyright (c) 1992-2001 Metropolis Inc. All Rights Reserved.          |
+ +----------------------------------------------------------------------------+
+    Here are some statistical pieces of information regarding the 1.1  
+[5C
+[6;1H 
+    release of MajorMUD (with all the addons activated):               
+[5C
+[7;1H 
+[6CRooms:    over 19,000            
+[10C           
+[16C
+[9;1H 
+[6CMonsters: over 750                 
+[8C         
+[18C
+[10;1H 
+[6CItems:    over 1800            
+[12C          
+[17C
+[11;1H 
+[6CSpells:   over 1200             
+[12C          
+[17C
+[12;1H 
+[6CShops:    over 150             
+[12C          
+[17C
+[13;1H 
+[6CClasses:  15                   
+[12C          
+[17C
+[14;1H 
+[6CRaces:    13                   
+[12C          
+[17C
+[15;1H 
+[76C
+[17;1H 
+[76C
+[18;1H 
+ |    Here are some statistical pieces of information regarding the 1.1       |
+ |    release of MajorMUD (with all the addons activated):                    |
+ |      Rooms:    over 19,000                                                 |
+ |      Monsters: over 750                                                    |
+ |      Items:    over 1800                                                   |
+ |      Spells:   over 1200                                                    |
+ |      Shops:    over 150                                                    |
+ |      Classes:  15                                                          |
+ |      Races:    13                                                          |
+[0m
+   
+[35m_________________________________________________________________________
+                              
+[1;34mM A J O R  M U D
+    
+[0mThe following people have been involved in the development of this game
+                     
+[35mDoretta Watson   [ Project Manager  ]
+                     Craig Maddux     [   Programmer     ]
+                     Dion Spanggaard  [   Programmer     ] 
+                     Isaac Stewart    [ Writing / Design ]
+                     Shannon Stewart  [ Writing / Design ]
+    
+[37mSpecial thanks to Ed McCullough, Darren Kamensek, Scott Kahler and last
+        but not least the numerous Beta Testers that have devoted immense
+                effort towards making MajorMUD a better game!
+        Copyright (c) 1993-2001 Metropolis Inc.   All Rights reserved.
+        Originally by Lance Neumann and West Coast Creations 1993-1999
+   
+[35m_________________________________________________________________________
+ | The following people have been involved in the development of this game    |
+ |                     Ed McCullough   [ Project Manager ]                    |
+ |                     Dion Spanggaard [   Programmer    ]                    |
+ |                     Isaac Stewart   [ Writing/Design  ]                    |
+ |                     Shannon Stewart [ Writing/Design  ]                    |
+ |  Special thanks to Ed McCullough, Darren Kamensek, Scott Kahler and last   |
+ |     but not least the numerous Beta Testers that have devoted immense      |
+ |              effort towards making MajorMUD a better game!                 |
+ |      Copyright (c) 1993-2004 Metropolis Inc. All rights reserved.          |
+ |     Originally by Lance Neumann and West Coast Creations 1993-1999         |
+Invalid Option.
+yes
+Do you understand that you have only a short time to change the decision you are making?
+(You must answer YES to continue): 
+Do you understand that your sysop can never change your race or class for you?
+(You must answer YES to continue): 
+You must choose a race. [ ? for help ]
+help
+You must choose a valid race. [ ? for help ]
+Please choose a class from the following list:
+You have now completed your race change.
+Don't forget that there is a time limit after which you cannot change again.
+Press <enter> to continue.
+You must choose a class. [ ? for help ]
+You must choose a valid class. [ ? for help ]
+You have now completed your class change.
+You must respond with a Y or an N.
+The gang %s has now been disbanded.
+The name may not be used again until all members have entered the game!
+Your gang has not been disbanded.
+Invalid password specified.
+Password NOT changed
+Enter New Password:
+Invalid password!
+The password may not be longer than 8 characters.
+Password not changed
+Password changed
+Command interrupted.
+Sysop user report interrupted
+[79D
+[K| 
+[1;37m| 
+%s just disconnected!!!
+Starting Cleanup
+Entering cleanup
+GANGHOUSE : NMBR %d - LEADER %s - GANG %s - HOUSE TAX %s. 
+%lu
+GANGHOUSE : Gang leader %s couldn't pay his gang house tax. BALANCE %s. 
+GANGHOUSE : Leader %s paid house tax. OLD SILVERMERE BALANCE %s NEW BALANCE %s. 
+Failed update of bankbook during Ganghouse Taxation
+GANGHOUSE : Adding gang house deed for gang house %d back into deed shop.
+GANGHOUSE : Removing GANGHOUSE DEED %d from Room %s Map %s floor.
+GANGHOUSE : DELETE_AT_CLEANUP : Skipping room cleanup. Room %s Map %s Gang house Number %s.
+GANGHOUSE : ERROR : DELETE_AT_CLEANUP : Skipping room cleanup. Room %s Map %s Gang house Number %s.
+MajorMUD Items swept up
+Hid %d items.
+GANGHOUSE : HOUSE %s : Effective eviction flag set.
+GANGHOUSE : HOUSE %s : House tax paid flag NOT set.
+GANGHOUSE : HOUSE %s : Not Occupied.
+Failplayerupdatclean
+MajorMUD User cleanup
+%d (%d) users, %s mins, %d EPs forgiven
+%d users, %lu minutes, %d evil points, %d total users.
+Cleanup Complete
+Deleting Mud user %s
+wccknows.sys
+Sysop
+MUD Internal Error - Please tell your sysop
+ -- 
+GS: %d
+07356801
+support
+support@WCC
+INP:
+Internal Error - %s%s
+-Demo
+%s -- %s (%d/%d)
+Feedback - %s%s
+-\|/
+%3d
+%d Demo days left
+Demo Expired
+[1;31;40m| 
+You may not do that while you are mortally wounded!
+[0;37;40m| 
+You may not save your character.  You must exit normally so that 
+your character may be saved properly.  Note that the game will 
+automatically save your character on a routine basis while playing.
+Syntax: STASH {Item Name}
+Syntax: ARM {weapon name}
+Syntax: WIELD {weapon name}
+Syntax: WEAR {item name}
+Syntax: READY {weapon name}
+Syntax: REMOVE {item name}
+trap
+Quiet mode set
+Verbose mode set
+[0;37m| 
+MajorMUD v %s
+Talk syntax is TALK {Fast/Slow}
+Fast
+Slow
+Syntax: STATLINE {ON/OFF/FULL}
+off
+full
+[79D
+[K| 
+You are no longer dragging %s
+You are no longer sneaking.
+Paging is now set to %s
+Off
+[79D
+[K| 
+[1;31m| 
+Syntax: FEEDBACK {comments}
+Thank you for your input... email sent.
+You are too sick to rest!
+%s stops to rest.
+You are now resting.
+You are too sick to meditate!
+Meditation will not help at this time.
+%s kneels to meditate.
+You are now meditating.
+list
+Dragon's Teeth add-on
+appropriate addon (and upgrade to the latest MajorMUD Version - most likely not available yet)
+Strangers in the Night add-on
+The Cursed Ruins add-on
+Terror from Below add-on
+The Rising Dawn add-on
+The Sands of Time
+Savage Lands add-on
+A call to Arms 
+Prophecy of Plague 
+Unnamed (not yet released)
+MajorMud Quests (not yet released)
+MajorMud Guilds (not yet released)
+Your %s has been removed.
+You have been stripped of 35,000,000 exp, and need to recomplete the red dragon ruby quest.
+You will need to exit and re-enter the realm to be retrained so your stats can be verified..
+[1;37m| 
+Last time you were on, you disconnected while playing.
+The gods have punished you appropriately.
+You have been promoted to the rank of lieutenant.
+You have been demoted from the rank of lieutenant.
+Your ganghouse has been closed down!!
+Gang house items have dissappeared from your inventory!
+Your gang, %s, has been disbanded!
+You have been stripped of your rank as lieutenant!
+You are no longer in the gang %s.
+Your stats have been reset due to an earlier bug.
+Please TRAIN STATS as soon as possible to re-apply your CPs
+(Unfortunately, if any spells were cast on you they will be terminated.
+Some of your evil points have been forgiven to help you avoid the
+new punishment associated with being evil.
+The taxes in the realm seem to have hit you extraordinarily hard this time!
+Your evil points have been adjusted to fit within the new system.
+You will have to complete a quest to regain your Saint status.
+You feel your life-force ebbing.
+Apprentice
+[79D
+[K| 
+You have progressed too far without training to acquire anymore experience!
+Your experience has not been restructured for the new system.
+Please exit and re-enter The Realm. This should restructure your experience points.
+You gain %s experience.
+%ld
+You have progressed too far for this room.
+You may not enter that room while in combat.
+You may not enter that room during a retaliation time-period.
+You are not healthy enough to enter that room.
+You can't seem to move anywhere!
+You are too stunned to move anywhere!
+[79D
+[K| 
+[0;37m| 
+Sneaking...
+[79D
+[K| 
+[1;37m| 
+You may not drag someone while in a party!
+You are too heavy to move!
+You are too heavy to be dragged!
+ (Dragging %s)
+ (Dragging something)
+You may not drag anyone through this exit.
+[1;31;40m| 
+You need to cast a spell to go that way!
+There is a closed door in that direction!
+[79D
+[K| 
+[1;33m| 
+%s%s
+[0;32m| 
+[79D
+[K| 
+[0;32m| 
+You do not have the appropriate item to go that direction!
+[0;37;40m| 
+You just paid
+ in toll charges.
+You do not have enough to cover the toll of %d %s.
+You are not permitted in that room!
+%s is dragging you around.
+The gate is Closed!
+The gate is closed!
+The door is Closed!
+The door is closed!
+%s%s%s
+There is no exit in that direction!
+You may not go through this exit during tournament play!
+You may not go through this exit!
+You have not progressed far enough to go through this exit!
+You have progressed too far to go through this exit!
+You are too good to go through this exit!
+You are too evil to go through this exit!
+%sYour sysop must purchase the %s%s%s before you may move through this exit.
+You may not pass through that exit at this point in time.
+ -- Following your Party leader %s --
+[31m| 
+You make a sound as you enter the room!
+[0;33m| 
+You notice %s sneaking out upwards%s.
+You notice %s sneaking out downwards%s.
+You notice %s sneaking out to the %s%s.
+You notice %s sneak in from above%s.
+You notice %s sneak in from below%s.
+You notice %s sneak in from the %s%s.
+ just left up%swards%s.
+ just left down%swards%s.
+ just left to t%she %s%s.
+ just left to %sthe %s%s.
+ just left to th%se %s%s.
+ walks into the room from above%s.
+ walks into the room from below%s.
+ walks into the room from the %s%s.
+You are dragging %s.
+[79D
+[K| 
+[1;31;40m| 
+You have been killed!
+User %s has been killed.
+%s is dead.
+But, because you were in a colliseum, you have been saved.
+You have %d lives left.
+%s appeared on the floor in the middle of the room.
+Your %s has returned to its rightful place.
+Failed to drop %s%s in %d/%d
+limited 
+Kil:Item %d not found
+Kil:Key %d not found
+But, due to a miracle, you have been saved.
+You have no lives remaining!
+A strange force stops you from getting this item.
+You cannot carry that much!
+It's uses gone, %s disappears from your inventory!
+healing
+[79D
+[K| 
+[1;34m| 
+You hand over
+ and all your wounds are healed.
+[79D
+[K| 
+[1;31m| 
+You do not have sufficient funds to buy full healing!
+curing
+cure poison
+ and find that you were not poisoned!
+You do not have sufficient funds to buy curing!
+ and your poisoning is cured.
+training
+REMOVING ITEM FROM STOCK LIST.
+FOUND GANG LEADER %s MATCHES %s.
+GANG EXP : USING SECONDARY FLAG.
+           ADJUSTING TEMP GANG EXP TO REQ GANG_EXP_FOR_GANGHOUSE.
+GANG EXP : %s
+GANG EXP : REQ BASE (* 10000) %s
+GANG EXP : REQUIRED           %s
+%s is not a known item.
+You cannot buy %s here!
+You cannot afford %s.
+You are already the owner of a gang house.
+Your gang does not have enough experience for you to purchase a gang house now.
+You must be a gang leader to purchase a gang house deed.
+Due to outstanding paper-work we are unable to provide you with another
+property today. Please call back tomorrow!
+You see %s buy a %s.
+You just bought %s for
+buyspell
+You may not sell items to a gang shop.
+You may not sell that item!
+You would get %s %s for your %s.
+%lu
+You see %s sell a %s.
+You sold %s for %s %s.
+You cannot sell %s here.
+You don't have %s to sell!
+You have no more room to wear that item!
+You may not wear that item!
+[79D
+[K| 
+[0;33m| 
+%s removes %s!
+You have removed %s.
+You are already wearing %s and it may not be removed.
+You may not wear an off-hand item while you have a 2-handed weapon readied.
+%s wears %s!
+You are now wearing %s.
+%s may not be worn!
+You do not have any %s.
+You cannot remove %s!
+You have removed %s and extinguished it.
+You do not have %s lit.
+You are not wearing %s.
+[79D
+[K| 
+[0;36m| 
+You deposit
+The bank cannot accept your deposit at this time.
+You withdrew %s %s.
+Your account has been charged %s credits as collateral.
+You do not have sufficient credits to borrow that amount!
+You are not allowed to borrow any money.
+Your account has been given %s credits.
+Thank you for repaying your loan.
+She
+she
+her
+him
+his
+its
+Your tracking skills fail you this time.
+%s went %s from here.
+You are no longer following %s.
+You are not in a party at the present time.
+%s just moved to the front rank in your group.
+You have moved to the front ranks of your group.
+You may not enter the backrank of your own party.
+You are the only one in the front rank.  You may not leave.
+There would not be enough people left in the frontrank if you did that.
+%s just moved to the back rank in your group.
+You have moved to the back ranks of your group.
+You are the only one in the back rank.  You may not leave.
+You may not leave your current rank in your own party.
+%s just moved to the middle of your group.
+You have moved to the middle ranks of your group.
+kai power cache too small
+[79D
+[K| 
+[0;35m| 
+You learn the following Kai abilities:
+[36m| 
+You must be in an appropriate training room to train!
+This shop is not suitable for your training.
+You have not progressed far enough to use the training provided here.
+You have progressed too far to use the training provided here.
+You may not train any further.  Please contact your sysop
+for appropriate access so that you may continue your training.
+NEW EXP : Player has required. More billions
+NEW EXP : Player has required. More remainder
+NEW EXP : Player does NOT have required exp.
+You do not have the money required for your training.
+ and you receive training to attain level %d.
+You receive the following:
+%d additional character points
+%d additional lives
+You do not have the required experience to train yet!
+ %s %s
+ nothing
+pitch black
+very dark
+barely visible
+dimly lit
+Regular Light
+Daylight
+You are blind!
+You have chosen a way of life which prevents this action.
+Why would you want to rob yourself?
+Such an action would result in a very unbalanced game.
+You are overcome with a feeling of guilt and return your hands to your own pockets
+You bump %s as you try to rob %s.
+%s bumps you as %s tries to rob you!
+Your skills fail as you try to rob %s.
+You stole %s %s from %s.
+You successfully stole %s from %s.
+This spell is too powerful for you - 
+Your meditation has been interrupted - you may not exit now!
+%s is searching for exits.
+You found an exit upwards!
+You found an exit downwards!
+You found an exit to the %s!
+You notice nothing different above you.
+You notice nothing different below you.
+You notice nothing different to the %s.
+You found a trap above you!
+You found a trap below you!
+You found a trap to the %s!
+%s has nothing to tell you!
+%s doesn't understand you.
+->%s<-->%s<-
+No text
+You look around stupidly and do nothing!
+%s looks around stupidly and foams at the mouth!
+[79D
+[K| 
+[1;34m| 
+%d -- %s
+LOOK
+STATUS
+%cHi there, how are you?
+%cHelp me!  I'm lost!
+INVENTORY
+TOPTEN
+HIDE
+PARTY
+ATTACK %s
+BREAK
+EXITS
+->AutoPlay<- :%s
+[79D
+[K| 
+Removing monster?
+[79D
+[K| 
+[0;33m| 
+Slightly dazed the %s rises from the floor.
+You feel ill.
+[79D
+[K| 
+[1;31m| 
+You have run out of credits for Major Mud.
+[1;30m[
+[0mMAJORMUD
+[1;30m]
+[0m: 
+[0;37;40m| 
+%s just left the Realm.
+%s is no longer lit!
+%s's %s just went out.
+RESTING - REST REGEN %d.
+MEDITATE - MANA REGEN %d.
+You awake from deep meditation feeling stronger!
+Slightly dazed you get back onto your feet.
+Slightly dazed %s rises from the floor.
+...
+orth
+outh
+ast
+est
+ortheast
+orthwest
+outheast
+outhwest
+own
+no 
+rth
+so 
+uth
+ea 
+we 
+no 
+rtheast
+no 
+rthwest
+so 
+utheast
+so 
+uthwest
+up 
+do 
+nor 
+sou 
+eas 
+wes 
+nor 
+theast
+nor 
+thwest
+sou 
+theast
+sou 
+thwest
+up  
+dow 
+nNSEW
+WUD
+Normal
+Spell
+Key
+Item
+Toll
+Action
+Hidden
+Door
+Map Change
+Trap
+Text
+Gate
+Remote Action
+Class
+Race
+Level
+Timed
+Ticket
+User Count
+Block Guard
+Alignment
+Delay
+Cast
+Ability
+Spell Trap
+Shop
+Arena
+Lair
+Hotel
+Colliseum
+Jail
+Library
+General
+Weapons
+Armour
+Items
+Spells
+Hospital
+Tavern
+Bank
+Training
+Inn
+Specific
+Gang Shop
+Deed Shop
+Wanderer
+NPC
+Living
+Random
+Group 1
+Group 2
+Group 3
+Group 4
+Group 5
+Group 6
+Group 7
+Group 8
+Group 9
+Group 10
+Group 11
+Group 12
+Group 13
+Group 14
+Group 15
+Group 16
+Group 17
+Group 18
+Group 19
+Group 20
+Group 21
+Group 22
+Group 23
+Group 24
+Group 25
+Group 26
+Group 27
+Group 28
+Group 29
+Group 30
+Angel
+Quest
+She
+Solo
+Leader
+Follower
+Stationary
+Good
+Evil
+Chaotic Evil
+Neutral
+Lawful Good
+Neutral Evil
+Lawful Evil
+Weapon
+Shield
+Projectile
+Special
+Food
+Drink
+Light
+Container
+Scroll
+Iron
+Steel
+Bronze
+Silver
+Gold
+Platinum
+Cotton
+None
+Mage
+Priest
+Druid
+Bard
+Kai
+1-Handed Blunt
+2-Handed Blunt
+1-Handed Sharp
+2-Handed Sharp
+Natural
+Robes
+Padded
+Soft Leather
+Soft Studded Leather
+Rigid Leather
+Studded Rigid Leather
+Chainmail
+Scalemail
+Platemail
+1-handed Blunt
+2-handed Blunt
+1-handed Sharp
+2-handed Sharp
+Any 1-handed
+Any 2-handed
+Any Sharp
+Any Blunt
+All Weapons
+Limited
+Nowhere
+Worn
+Head
+Hands
+Finger
+Feet
+Arms
+Back
+Neck
+Legs
+Waist
+Torso
+Off-Hand
+Wrist
+Ears
+Eyes
+Face
+The copper farthings look like they've been around forever.
+The silver nobles glitter with use.
+The gold crowns are rustic and used.
+The platinum pieces shine as though they were new.
+The %s glitter like nothing you have ever seen before.
+copper farthings
+silver nobles
+gold crowns
+platinum pieces
+User Defined Currency Type ....
+copper farthing
+silver noble
+gold crown
+platinum piece
+Undefined
+Room
+Character
+Monster
+Unknown
+Auto-Combat
+Poison
+Change me
+Cold
+Hot
+Stone
+Lightening
+Water
+Single
+Self
+Self or Single
+Divided Area Not You
+Divided Area Incl. You
+Any
+Monster or Single
+Divided Attack Area
+Divided Party Area
+Full Area
+Full Attack Area
+Full Party Area
+black
+white
+silver
+red
+brown
+dark-brown
+blonde
+green
+blue
+grey
+none
+short
+shoulder-length
+long
+waist-length
+ankle-length
+crimson
+yellow
+pale-blue
+sea-blue
+dark-blue
+grey-blue
+slate-grey
+bright-green
+forest-green
+pale-green
+chesnut-brown
+hazel
+violet
+lavender
+golden
+Magic Resistance
+Strength
+Agility
+Health
+Intellect
+Wisdom
+Charm
+Red Gang House
+Orange Gang House
+Yellow Gang House
+Green Gang House
+Violet Gang House
+Blue Gang House
+Black Gang House
+Silver Gang House
+Gold Gang House
+White Gang House
+Race E0!
+Class E0!
+Subtracting %d-%d:%d from %d-%d:%d
+Returning %s
+%lu
+Check mongen stats
+Room: %d, Map: %d
+Failed to insert monster %lu (%s) Pass %s
+%s currently owns Active Number %s
+(%s) Not found in Known Dat
+Failedtoinsertmonster
+Failed to add monster to room - will recover at cleanup
+[79D
+[K| 
+[1;33m| 
+%s%s
+[0;32m| 
+nowhere
+the %s
+%s%s moves into the room from nowhere.
+%s%s moves into the room from the %s.
+%s%s just arrived from nowhere.
+%s%s just arrived from the %s.
+[79D
+[K| 
+%s %s drop to the ground.
+%s platinum drop to the ground.
+%s gold drop to the ground.
+%s silver drop to the ground.
+%s copper drop to the ground.
+MajorMud - Warning unable to create node
+Please reset your %s
+WCCACMS2.DAT
+%s%s just left upwards.
+%s%s just left downwards.
+%s%s just left to the %s.
+%s%s moves into the room from above.
+%s%s moves into the room from below.
+%s%s moves into the from the %s.
+%s cast %s on you.
+%s cast %s on %s.
+[79D
+[K| 
+[1;31m| 
+everyone
+[79D
+[K| 
+[0;36m| 
+You resisted %s's cast of %s.
+%s resisted %s's cast of %s.
+The %s attempted to cast %s at you, but failed.
+The %s attempted to cast %s at %s, but failed.
+%s looks around stupidly and foams at the mouth!
+itself
+MajorMUD
+Built active list (%d)
+listdmp.txt
+Ran at %s %s:
+STATS:
+Max Active: %d Last Unique: %d
+Db Usage: %d (%d%%)
+Node Usage: %d (%d%%)
+Node Count: %d
+Head: %lu Current: %lu
+List:
+Active Monster Usage Stats:
+Max Active: %d Last Unique: %d
+Db Usage: %d (%d%%)
+Node Usage: %d (%d%%)
+Node Count: %d (%d%%)
+Head: %s Current: %s
+%d->
+MajorMUD - Debug
+Avoided divide by zero in CEU...continuing
+Class %d does not exist in moveplayertofighter
+fists of fury
+punch
+punches
+lightning feet
+kick
+kicks
+flying feet
+jumpkick
+jumpkicks
+attack
+attacks
+fists
+surprise %s
+swing at
+swings at
+[79D
+[K| 
+[1m| 
+[31m| 
+AV %-5d DV %-5d 
+DR %-5d DG %-4d 
+EU %-5d D %5d/%-5d CR %3d
+You %s %s for %d damage!
+%s %s you for %d damage!
+%s %s %s for %s damage!
+You %s %s!
+%s %s you!
+%s %s %s!
+You %s %s who dodges your attack!
+%s %s at you with %s %s, but you dodge the attack!
+%s %s at %s with %s %s, but %s dodges!
+[1;31;40m| 
+You do not see %s here!
+Such an attack would result in a very unbalanced combat round.
+[0;33m| 
+*Combat Engaged*
+[79D
+[K| 
+[0;33m| 
+%s moves to attack you!
+%s moves to attack %s!
+attacking
+Attacker (You) 
+[33m| 
+Attackee       
+[1;31m| 
+Attacker       
+Attackee (You) 
+Slightly dazed you get back onto your feet.
+Slightly dazed %s rises from the floor.
+You must rest before you may attack again.
+You took %d damage!
+[79D
+[K| 
+[1;31m| 
+critically %s
+You smashed %s to the ground!
+You are smashed to the ground!
+%s is smashed to the ground defenseless!
+[79D
+[K| 
+[0;31m| 
+Your %s %s hits, but glances off %s armour!
+%s's %s you hits, but your armour deflects!
+%s's %s %s hits, but glances off %s armour!
+[79D
+[K| 
+[0;36m| 
+%s dodges your attack!
+DEBUG : Missing User / Monster data.
+DEBUG : User Room != Monster Room.
+DEBUG : Restarting Auto-Combat. Energy below max.
+You are not using the required weapon to hit this monster!
+%s moves to protect %s
+Your %s have no effect against this monster!
+Your weapon has no effect against this monster!
+%s moves to attack %s.
+Slightly dazed the %s rises from the floor.
+[0;37;40m| 
+DEBUG : LOST MONSTER DURING COMBAT.
+[79D
+[K| 
+[1m| 
+[31m| 
+You must rest before you may attack again.
+DEBUG : ENERGY GIVES NEGATIVE VALUE - SETTING TO 0.
+DEBUG : SUBTRACT ENERGY %s : REMAINING %s.
+You took %d damage.
+The %s is smashed to the floor defenseless!
+Your %s %s hits, but glances off its armour.
+%s's %s %s hits, but glances off its armour.
+%s %s %s but it dodges.
+%s appears!
+Attacker        
+%s's %s hits you, but your armour deflects.
+%s's %s hits %s, but glances off %s armour.
+%s %s you with %s, but you dodge!
+%s %s %s with its %s, but %s dodges.
+%s %s you with %s.
+%s %s %s with its %s.
+[79D
+[K| 
+[1m| 
+[37m| 
+%s just killed %s.
+%s just attacked %s!
+%s's just glanced off of %s's armour.
+%s just dodged an attack from %s.
+%s just missed an attack against %s.
+Please note: Recovery mode in progress.  Some monsters may not regenerate.
+You may not re-initialize during another initialization cycle.
+Last Cycle:  Map %d, Room %d, Monster %d, Known %d/%d
+Active Monsters: %d, Known Monsters: %d
+State: %d %s 
+(Finished)
+(Active Monsters)
+(Rooms)
+(Known Monsters)
+ -- Recovery Mode
+ (Rate %d)
+MajorMUD Notice
+Reinitialize Requested
+Reinitializing of MajorMUD started.
+Rate: %d   Recover Mode: %s
+Yes
+MajorMUD - Recovery Mode
+Detected Abnormal system shutdown
+Max Active: %d
+MajorMUD - Warning
+Please reset your %s
+WCCACMS2.DAT
+MajorMUD - Warning Unable to build the active list
+wccupda2.dat
+MajorMUD - Error
+No database update found - Game not started
+MajorMUD - Corruption Please wait
+Corrupt database detected - attempting to fix
+Known Monsters checked
+Room Counts
+Rooms: %lu, Maps: %lu
+Rooms processed
+killme
+Recovery mode has now completed.
+MajorMUD Initialized
+Maps updated
+[0;37;40m| 
+Cleared
+Buffer Statistics: (%s - %s Sec)
+%ld
+Rooms:           Size: %-5u Used: %-5u Hits: %-5u Miss: %-5u Mod: %-5u
+Items:           Size: %-5u Used: %-5u Hits: %-5u Miss: %-5u Mod: %-5u
+Active Monsters: Size: %-5u Used: %-5u Hits: %-5u Miss: %-5u Mod: %-5u
+Known Monsters:  Size: %-5u Used: %-5u Hits: %-5u Miss: %-5u Mod: %-5u
+Spells:          Size: %-5u Used: %-5u Hits: %-5u Miss: %-5u Mod: %-5u
+Classes:         Size: %-5u Used: %-5u Hits: %-5u Miss: %-5u Mod: %-5u
+Races:           Size: %-5u Used: %-5u Hits: %-5u Miss: %-5u Mod: %-5u
+Shops:           Size: %-5u Used: %-5u Hits: %-5u Miss: %-5u Mod: %-5u
+Bankbooks:       Size: %-5u Used: %-5u Hits: %-5u Miss: %-5u Mod: %-5u
+Messages:        Size: %-5u Used: %-5u Hits: %-5u Miss: %-5u Mod: %-5u
+Gangs:           Size: %-5u Used: %-5u Hits: %-5u Miss: %-5u Mod: %-5u
+Error with a room
+Room NULL
+Error with a player
+Player NULL
+Error with an item
+Item NULL
+Error with a monster
+Monster NULL
+Error with a known monster
+Known Monster NULL
+Error with spell
+Spell NULL
+Error with class
+Class NULL
+Error with race
+Race NULL
+Error with shop
+Shop NULL
+Error with Bankbook
+Bankbook NULL
+Error with message
+Message NULL
+Error with Gang
+Gang NULL
+Saving error
+No rooms
+No items
+No monsters
+No known monsters
+No spells
+No classes
+No races
+No shops
+No bankbooks
+No messages
+No gangs
+Failupdroom
+Failinsroom
+get_player: %d(%d) (usrnum: %d [%s])
+N/A
+Failupditem
+Failinsitem
+Failupdmonst
+Failinsactmons
+Couldn't find delete monster
+Monster Number: %lu
+Couldn't find delete monster %lu
+dumpmem.txt
+%d|%lu|%lu|%d|%lu|%lu|%s
+Failupdknmonst
+Failinsknmons
+Failupdspell
+Failinsspell
+Failupdclass
+Failinsclass
+Failupdrace
+Failinsrace
+Failupdshop
+Failinsshop
+Failupdbankb
+Failinsbankb
+Failupdmess
+Failinsmess
+Failupdgang
+Failinsgang
+There are no gangs currently established!
+[79D
+[K| 
+[0;33m| 
+Heroes of The Realm
+%s=-=-=-=-=-=-=-=-=-=
+[37m| 
+%s%-3.3s %s%-21.21s %s%-10.10s %s%-19.19s %s%-6.6s
+[31m| 
+Rank
+[32m| 
+Name
+[35m| 
+Class
+[33m| 
+Gang/Guild
+%s=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[1;30m| 
+[0m| 
+%s%3.3s. %s%-21.21s %s%-10.10s %s%-19.19s %s%-6.6s
+%s %s
+None
+%s%3.3s. %s%-21.21s %s%-10.10s %s%-19.19s %s%-12.12s %s%-6.6s
+%lu%09lu
+%lu
+%s%3.3s. %s%-21.21s %s%-10.10s %s%-19.19s
+Top Heroes of the Realm
+%s-=-=-=-=-=-=-=-=-=-=-=-
+%sClass
+%s%-4.4s %s%-21.21s %s%-10.10s %s%-19.19s %s%-12.12s %s%6.6s
+Experience
+%s=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%s%-4.4s %s%-21.21s %s%-10.10s %s%-19.19s %s%-6.6s
+%s=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Top Gangs of the Realm
+%s-=-==-=-=-=-=-=-=-=-=-
+%sRank %s%-19.19s %s%-11.11s %s%7.7s %s%s
+Gangname
+Leader
+Members
+Created
+      %sExp
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+%s%3.3s. %s%-19.19s %s%-11.11s %s%4.4s    %s%s
+%58.58s(%d times)
+%58.58s+%s
+[79D
+[K| 
+[0m| 
+%sName: %s%-29.29s    %sLives/CP:  %s%5d/%-5d
+[36m| 
+%sRace: %s%-11.11s %sExp: %s%-15.15s %sPerception:  %s%5d
+%sClass: %s%-10.10s %sLevel: %s%-5d         %sStealth:     %s%5d
+%sHits: %s%5d/%-5d %sArmour Class: %s%3d/%-2d %sThievery:    %s%5d
+                                       %sTraps:       %s%5d
+%sMana: %s%4d/%-5d %sSpellcasting: %s%-5d  %sTraps:       %s%5d
+[1;31m| 
+[0;36m| 
+[36m| 
+%sKai:  %s%4d/%-5d                      %sTraps:       %s%5d
+%s                                       Picklocks:   %s%5d
+%sStrength: %s%-5d  %sAgility:%s%-5d       %sTracking:    %s%5d
+[1;31m| 
+[0;32m| 
+%sIntellect:%s%-5d  %sHealth: %s%-5d       %sMartial Arts:%s%5d
+%sWillpower:%s%-5d  %sCharm:  %s%-5d       %sMagicRes:    %s%5d
+%sYou are Poisoned!
+[1;31m| 
+[0;37;40m| 
+You are in the front rank of your group.
+You are in the back rank of your group.
+You have the following spell cast upon you:
+  %s (%d,%d)
+  %s
+, %s (%d,%d)
+, %s
+[79D
+[K| 
+[0;37;40m| 
+Health: %5d/%-5d [%d%%]  %s: %3d/%-3d [%d%%]
+Kai
+Mana
+Health: %5d/%-5d [%d%%]
+[0;37m| 
+%s[%s%d%s]%s  %s
+[1;37m| 
+%s[%s%d%s]%s %s
+Item %s Map %d Room %d
+Item %s User %s
+Item %s Monster %d
+Error
+No item error
+MajorMud - Warning
+Unable to create Item Owner Node
+Unknown Monster
+map
+gang
+user
+monster
+Item %s Map %lu Room %lu (%s)
+Item %s Map %lu Room %lu
+Item %s User %s
+Item %s Monster %lu (%s)
+starting display_list_of_all_items(VOID)
+%d: %-11.11s - %s
+%d: %-11.11s - %s
+Just before dfaRstBlk();
+Just before dfaRstBlk();
+Just after dfaRstBlk();
+Just after dfaRstBlk();
+%5d) %s [%s/%s] {%s}
+At least 
+%d Active Monsters in the game.
+%6.6s %30.30s - Lvl %d Gen# %d
+Obvious exits: 
+north
+Secret passage north
+closed door north
+open door north
+closed gate north
+open gate north
+south
+secret passage south
+closed door south
+open door south
+closed gate south
+open gate south
+east
+secret passage East
+closed door east
+open door east
+closed gate east
+open gate east
+west
+secret passage west
+closed door west
+open door west
+closed gate west
+open gate west
+northeast
+secret passage northeast
+closed door northeast
+open door northeast
+closed gate northeast
+open gate northeast
+northwest
+secret passage northwest
+closed door northwest
+open door northwest
+closed gate northwest
+open gate northwest
+southeast
+secret passage southeast
+closed door southeast
+open door southeast
+closed gate southeast
+open gate southeast
+southwest
+secret passage southwest
+closed door southwest
+open door southwest
+closed gate southwest
+open gate southwest
+above
+secret passage above
+closed trap door above
+open trap door above
+below
+secret passage below
+closed trap door below
+open trap door below
+NONE!!!
+You notice 
+%d 
+ here.
+Your search revealed nothing.
+[79D
+[K| 
+[0;35m| 
+You hear movement above you!
+You hear movement below you!
+You hear movement to the %s.
+You see %s
+ hiding in the shadows.
+Invalid room %d/%d
+[79D
+[K| 
+DBG: %s Map: %s
+[1;36m| 
+FILE DESCRIPTION
+NOTE: This room is *not* a death-free zone right now!
+Treat this room as you would any other combat zone.
+Also here: 
+%s%s%s%s
+(Hidden)
+, %s%s%s%s
+monbadroom %lu (%lu - %s) is %lu:%lu vs. %lu:%lu (%d)
+ (Charmed)
+mongone %lu in %lu:%lu (%lu:%lu)
+The room is %s
+[79D
+[K| 
+[0;36m| 
+The currency conversion rates are:
+%d %s == 1 %s
+    
+%s 
+black
+white
+silver
+red
+brown
+dark brown
+blonde
+green
+blue
+grey
+short 
+shoulder-length 
+long 
+waist-length 
+ankle-length 
+crimson
+yellow
+pale blue
+sea-blue
+dark blue
+grey-blue
+slate grey
+bright green
+forest-green
+pale green
+chesnut-brown
+hazel
+violet
+lavender
+golden
+critically wounded
+severely wounded
+heavily wounded
+moderately wounded
+slightly wounded
+unwounded
+mortally wounded
+ and is bleeding heavily!
+puny
+weak
+slightly built
+moderately built
+well built
+muscular
+powerfully built
+heroically proportioned
+Herculean
+physically Godlike
+slowly
+clumsily
+slugishly
+cautiously
+gracefully
+very swiftly
+with uncanny speed
+with catlike agility
+blindingly fast
+sickly
+frail
+thin
+healthy
+stout
+solid
+massive
+gigantic
+colossal
+openly hostile and quite revolting
+hostile and rather unappealing
+quite unfriendly and aloof
+likable in an unassuming sort of way
+quite attractive and pleasant to be around
+charismatic and outgoing.  You can't help but like %s
+extremely likeable, and fairly radiates charisma
+incredibly charismatic.  You are almost overpowered by %s strong personality
+overwhelmingly charismatic.  You almost drop to your knees in wonder at the sight of %s!
+utterly moronic
+quite stupid
+slightly dull
+intelligent
+bright
+extremely clever
+brilliant
+a genius
+all-knowing
+seems selfish and hot-tempered
+seems sullen and impulsive
+seems a little naive
+looks fairly knowledgeable
+looks quite experienced and wise
+has a worldly air about %s
+seems to possess a wisdom beyond %s years
+seems to be in an enlightened state of mind
+looks like %s is one with the Gods
+[79D
+[K| 
+[1;36m| 
+%s%s %s%s
+ -- Immortal !
+A shadowy figure
+%s is a %s, %s 
+%s %s with 
+%s%s hair and %s eyes.  
+%s moves %s, and is %s.  
+%s appears to be %s and %s.  
+%s is %s%s.
+%s is equipped with:
+%-30.30s %s(Readied)
+%s (%d) %s(%s)
+%-30.30s %s(%s)
+display_user_desc: Item not found: %d
+%-30.30s %s(Weapon Hand)
+Nothing
+no monster
+%s%s
+Level: %d, Hit Points: %d. Active# %d Known# %d
+Following: '%s' (%s), Inactive for: %d rounds
+Friend
+Foe
+Generated room: %s
+Spell: %s  (%d)
+Ability: %d (%d)
+Ability: %s (%d)
+Item: %d
+very critically wounded
+%s appears to be %s.
+%s is poisoned!
+Hit any key to continue...
+Can't display gang house file %s
+You are carrying 
+ (Readied/%d)
+ (Two handed)
+ (Weapon Hand)
+Nothing!
+%sWealth: %s%s %s
+%sEncumbrance: %s%s/%s - %s%s [%d%%]%s
+Heavy
+Medium
+Light
+display_shop_items
+Banking services:
+Deposit Rate: ??
+Loan Rate: ??
+The following items are for sale here:
+%sItem                          %sQuantity    Price
+------------------------------------------------------
+GANGSHOP %d - BASE COST %u
+[1;31;40m| 
+NO COST FOUND
+GANGSHOP %d - CURRENCY INDEX %u CURRENCY %-8s
+NO CURRENCY FOUND
+%s%-29.29s %s%-8d %5u %-8s
+%s%-29.29s %s%-8d     Free
+ (Too powerful)
+ (You can't use)
+%s%-29.29s %s%-8d %5d %-8s
+%s%-16.16s %s%-20.20s %s%-4.4s%s%10.10s %s%-9.9s %s%-6.6s
+Userid
+Bcst
+Room/Map
+Evil
+%s%-15.15s %s%-20.20s   %s%-10.10s %s%-19.19s %s%-6.6s
+Title
+Reputation
+%s=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[1;33m| 
+         Current Adventurers
+         ===================
+%s%-16.16s %s%-20.20s %s%-4d %s%5.5s/%-3.3s %s%-6.6s %c %s%-6.6s
+%ld
+EDITED
+%s%-15.15s %s%-20.20s%c%c %s%-10.10s %s%-19.19s %s%-6.6s
+Lawful
+%-*.*s
+%8.8s %s%s  %c  %s%s%s 
+%s%8.8s %s%s  %c  %s%s%s 
+ of %s%s %s%s
+ERROR in users!
+%sThere are no users in the game at the moment.
+There are %d users in the game.
+Unable to create Key Node (Out of memory)
+You have the following keys: 
+ %d %ss
+You have no keys
+You may not list your spells. You are KAI! You must list your powers.
+You may not list your powers. You are not KAI! You must list your spells.
+[79D
+[K| 
+[1;37m| 
+You have the following %s:
+spells
+powers
+%sLevel %4.4s Short Spell Name
+Kai 
+%3d   %-4d %4.4s  %-30.30s
+You have no %s.
+[0;37;40m| 
+[79D
+[K| 
+Life for this CHAR  %s minutes
+Display Mode:       %s
+Verbose
+Brief
+Statusline:         %s
+Full
+Off
+Broadcast Channel:  %d
+Talking speed:      %s
+Fast
+Slow
+Follow Mode:        %s
+Blind
+Normal
+Attack Interrupts:  %s
+Receive Items:      %s
+Disabled
+Enabled
+Warn on Evil:       %s
+Yes
+Allow Telepaths:    %s
+Block Entrance Msg: %s
+Allow Gossip:       %s (%d every 3 seconds)
+Allow Auction:      %s (%d every 3 seconds)
+View gang members:  %s
+Online
+All
+Keep some exp:      %s
+(Disabled on this system)
+Messages:           %s
+High
+Low
+Paging:             %s (%d every 3 seconds)
+Talking Responses:  %s
+Style:              %s
+Technical
+Fantasy
+Colour Palette:     %d
+You do not have a suicide password set.
+SYSOP ACCESS ENABLED
+Debug:              %s
+Partial
+Your balance at %s (#%s) is:
+On deposit: %s %s [%s%s.%s %s%s]
+%02d
+%s (%s):
+[1m| 
+[36m| 
+You are following %s.
+The following people are in your travel party:
+  %-30.30s %-12.12s [Invited]
+  %-30.30s %-12.12s
+ [%c:%3.3s%%]
+         
+ [H:%3.3s%%]%c%c%s
+ - Frontrank
+ - Backrank
+ - Midrank
+You are not in a party at the present time.
+FLAG_PASSABLE 
+FLAG_NEED_SEARCH 
+FLAG_VISIBLE_SEARCHED 
+FLAG_VISIBLE_BLOCKED 
+FLAG_BLOCKED_1 
+FLAG_BLOCKED_2 
+FLAG_BLOCKED_3 
+FLAG_BLOCKED_4 
+FLAG_BLOCKED_5 
+FLAG_BLOCKED_6 
+FLAG_BLOCKED_7 
+FLAG_BLOCKED_8 
+FLAG_BLOCKED_9 
+FLAG_BLOCKED_10 
+[79D
+[K| 
+[0;32m| 
+%s members (online)
+%-29.29s  [Leader]
+%-29.29s  [Leader - Offline]
+%-29.29s  [Lieutenant]
+%-29.29s
+%s members (%d)
+This gang has been disbanded.
+%-29.29s - Online [Leader]
+%-29.29s          [Leader]
+%-29.29s - Online 
+%-29.29s 
+Room %s  Map: %s
+This room as Area: Max: %d  Current: %d
+Min: %d Max: %d Group: %s by Number: %d
+Room Max: %d  Current: %d  Last Killed: %s Delay: %d
+Controlling Room: %s
+Current Area: Max: %d  Current: %d
+No controlling room.
+Specific Monster: %d-%s [%d/%d]
+Last Killed: %s %s (RG: %d)
+Protected
+Patrollable
+Ganghouse
+Specific Monster is Alive
+Monsters: 
+None
+Items: 
+%d(%d) 
+Hidden items: 
+Placed items: 
+Room error
+User error!
+[79D
+[K| 
+[0;37m| 
+[41m| 
+%s drops to the ground!
+[40m| 
+You have 
+No money!
+[79D
+[K| 
+[0;37m| 
+Users of the Realm
+Users who will not show in topten
+%-29.29s %-25.25s
+GameID
+%-29.29s %-25.25s %s
+(Editted)
+User abilities: 
+Nothing special
+nrddebug.out
+ljndisp.c: %s
+ZZH
+_ZH
+dZH
+lZH
+You cast %s on %s.
+%s cast %s on you.
+%s cast %s on %s.
+[79D
+[K| 
+[79D
+[K| 
+[0;36m| 
+You attempt to cast %s, but fail.
+[1;36m| 
+%s resists your spell!
+Adding spell to %s
+None
+User
+Monster
+Item
+[79D
+[K| 
+[1;31m| 
+This is a silly spell, why would you do that?
+Please report the spell you just cast and the target (user/monster)
+to the sysop so they can remedy the situation.
+Silly Spell Cast: %s [%s]
+Silly Spell Cast [%s]
+Your spell fails to bash one of the exits!
+You do not have the required material component to cast this spell!
+%s attempted to cast %s, but failed.
+[1;31;40m| 
+Your spell fails!
+Your power fails!
+You are overcome with a feeling of guilt and break off your attack.
+You must specify a target for that spell!
+Your spell has no effect in this room!
+[79D
+[K| 
+[0;33m| 
+*Combat Engaged*
+%s moves to attack everyone in the room.
+You have already %s this round!
+invoked a power
+cast a spell
+Min/Max %d/%d -- Spell Min/Max %d/%d  (%d/%d)
+Removing spell %d
+Looking at %s
+XXX
+%s (%d/%d)
+Your spell has no effect on %s.
+[79D
+[K| 
+[1;36m| 
+The %s resists your spell!
+everyone
+You are the only one in the room!
+[79D
+[K| 
+[1;31;40m| 
+You do not have enough %s.
+kai to invoke that power
+mana to cast that spell
+This spell is too powerful for you to control.
+Why would you want to attack yourself?
+Such an attack would result in a very unbalanced combat round.
+You may not cast that spell on a user!
+%s moves to attack you!
+%s moves to attack %s.
+You attempt to cast %s at %s, but the spell is resisted.
+You resisted %s's %s.
+%s resisted %s's %s.
+You attempt to cast %s at %s, but fail.
+%s attempted to cast %s on you, but failed.
+%s attempted to cast %s at %s, but failed.
+Min/Max %d/%d -- Spell Min/Max %d/%d  (%d)
+%s (%d)
+You have shattered %s's %s
+Your %s has been shattered!
+If this wasn't a combat arena then you would have shattered %s's %s
+Your %s would have been shattered if this was not a combat arena!
+You may not cast that spell on a monster!
+DEBUG : LOST MONSTER TARGET.
+%s is not in this room!
+You are not of a high enough level to cast that spell.
+You are not using the required spell to hit this monster!
+DEBUG : INCORRECT MAGERY GROUP/LEVEL. FAIL CAST.
+SPELL COMPONENTS NOT CONFIRMED.
+ FAIL CAST.
+%s moves to protect %s
+%s moves to cast %s upon %s.
+You may not cast that spell on an item!
+[79D
+[K| 
+[1m| 
+[37m| 
+%s glows faintly, indicating a small amount of magic within.
+%s glows softly, indicating a good amount of magic within.
+%s glows brightly, indicating a large amount of magic within.
+You are almost blinded by the aura from %s, indicating immense magical properties!
+[79D
+[K| 
+[0;37m| 
+You detect no magic in that item!
+%s casts %s on %s.
+Despite your best efforts, you do not recall anything special.
+[79D
+[K| 
+You don't know what to do with this!
+You realize that you already know this scroll!
+You read %s and learn the spell %s.
+You receive %d hit points.
+You receive %d mana.
+You successfully unlocked the door.
+The door was not locked.
+You successfully unlocked the %s.
+door
+gate
+The %s was not locked.
+The %s doesn't seem to fit that lock.
+DBG: Using
+DBG: About to check to cast
+DBG: About to cast %s
+DBG: Ability: %d (%s,%s)
+FAA
+finished
+DEBUG : CASTING %d.
+DEBUG : SPELL FAILED
+You cannot use spell %d.
+NOT AN ABILITY.
+USE MONSTER TARGET DEFAULT.
+Item %s removed from user %s
+remlogicaluseritem? %s
+remlogicalroomitem? %s
+Item %s removed from room %lu map %lu
+remlogicalmonsteritem? %s
+Item %s removed from monster %d
+Item %s added to user %s
+Item %s added to room %lu map %lu
+Item %s added to monster %d
+Hit any key to continue...
+Topics
+[0;37;40m| 
+The following help topics are currently available: 
+Help ?
+%s.
+%s, 
+Experience xp exp. exps
+Level   Experience
+-----   ----------
+  %2d     %s
+%lu
+%lu%09lu
+classes
+races
+conversion exchange rates
+actions
+Sorry, no help is available for that topic!
+No ability
+Inflict Damage Ignoring Armour
+Alter Defence Value
+Alter Cold Attack Damage (Defence)
+Alter Damage (Attacking)
+Alter Hot Attack Damage (Defence)
+Enslave Creature
+Alter Damage Resistance Value
+Steal Hit Points
+Shadow Stealth
+Protective Shield
+Alter Energy Level
+Summon Creature
+Alter User Light
+Alter Room Light
+Alter Hunger
+Alter Thirst
+Inflict Damage on Armour
+Heal
+Poison
+Cure Poison
+Poison Immunity
+Alter AV (Bless)
+Kill Dead
+Alter defence against Evil
+Alter defence against Good
+Detect Magic
+Magical
+Punch
+Kick
+Bash
+Smash
+Killblow
+Dodge
+Jumpkick
+Magic Resistance
+Picklocks
+Tracking
+Thievery
+Find Traps
+Disarm Traps
+Link to Spell
+One Time Cast
+Alter Intellect
+Alter Wisdom
+Alter Strength
+Alter Health
+Alter Agility
+Alter Charm
+Quest
+Anti Magic
+Evil in Combat
+Blinding Light
+Alter General Light
+Alter General Light Duration
+Recharge Item
+See Hidden
+Alter Critical Hit Chance
+Class Item Inclusion
+Flee
+Affect Exit
+Alter Evil Chance
+Alter Experience
+Add CP
+Resist Stone
+Resist Lightning
+Quickness
+Slowness
+Mana
+Spellcasting
+Confusion
+Damaging shield
+Dispell magic
+Hold person
+Paralyze
+Mute
+Perception
+Animal
+Magebind
+Affects Animal
+Freedom
+Cursed
+Major Curse
+Remove Curse
+Shatter
+Quality
+Alter Energy Usage
+Alter HP
+Alter Punch AV
+Alter Kick AV
+Alter Jumpkick AV
+Alter Punch DMG
+Alter Kick DMG
+Alter Jumpkick DMG
+Slay
+Alter Encumbrance
+Good Aligned
+Evil Aligned
+Alter DR by percent
+Loyal Item
+Confuse Message
+Race Stealth
+Class Stealth
+Defence Modifier
+Alter AV (Curse)
+3rd Alter Attack Value
+Blind User
+Affects Living
+Non Living
+Not Good Aligned
+Not Evil Aligned
+Neutral Aligned
+Not Neutral Aligned
+Auto Use Abilities
+Descriptive Message
+Alter Backstab Attack Value
+Alter Backstab Min. Damage
+Alter Backstab Max. Damage
+Delete at cleanup
+Starting Message
+Recharge at cleanup
+Remove spell
+Alter healing rate
+Negate ability
+Quest type one
+Quest type two
+Quest type three
+Quest type four
+Quest type five
+Quest type six
+Quest type seven
+Quest type eight
+Quest type nine
+Quest type ten
+Minimum level allowed
+Maximum level allowed
+Shockshield Message
+Visible Placed Item
+Spell Immunity
+Teleport Room
+Teleport Map
+Hit Magical
+Clear Item
+Non Magical Spell
+Alter Mana Regeneration
+Guarded by Monster
+Resist Water
+Trigger Text Block
+Delete from inventory at cleanup
+Heal Mana
+Cast on ending
+Rune
+Terminate Spell
+Remain Visible at cleanup
+Death text block
+Quest item
+Scatter items
+Required to hit
+Kai Bind
+Give Spell (temporarily)
+Open Door
+Lore
+Spell Component
+Cast on ending chance
+Alter spell damage
+Alter spell duration
+Unequip item
+Equip item
+Cannot wear location
+Put to sleep
+Invisibility
+See Invisible
+Scry
+Steal Mana
+Steal HP to Mana
+Steal Mana to HP
+Spell Colours
+Shadowform
+Find traps value
+Picklocks value
+Gang House Deed
+Gang House Tax
+Gang House Item
+Gang Shop Item (controller)
+Do not Attack if Item Nmbr
+Perfect Stealth
+Meditate
+[79D
+[K| 
+[0;33m| 
+*Combat Off*
+%s breaks off combat.
+You cannot backstab with this weapon.
+[1;31;40m| 
+You do not see %s here!
+You don't see your target here!
+  %s(%d)
+   DM1:%s
+   DM2:%s
+   DM3:%s
+  ! No messages for this value !
+Hmmm.. an error in the recursion!
+%c   %c   %c 
+%c%c%c
+%c>%-5d<%c 
+          
+Number:     %-5d  Name:     %-30.30s
+Intellect:  %-5d  Wisdom:   %-5d  Strength: %-5d
+Health:     %-5d  Agility:  %-5d  Charm:    %-5d
+Max Energy: %-5d  Restored: %-5d Percent Exp/Level: %-5d
+Abilities: 
+  None
+--------------------------------------------------------------
+Name: %-20.20s  Asgn. CPS: %3.3s Total reqd: %4.4s Trnd: %4.4s
+Number:     %-5d  Name:         %-30.30s
+Base HP:    %-5d  HP per level: %-5d  Attack Mult:       %-5d
+Max Energy: %-5d  Restored:     %-5d  Percent Exp/Level: %-5d
+Magery Group: %15.15s-%-5d  Combat Value:    %-5d
+Max Weapon Type: %15.15s  Max Armour Type: %15.15s
+Userid: %-30.30s  Local Name: %-30.30s
+Race:   %-30.30s  Class:      %-30.30s
+Experience: %s  Level: %d
+Desc: %s
+      %s
+Shop Type: %-15.15s   Levels: %5d - %-5d
+Percent Markup: %-5d Ownable: %3.3s  Expandable: %3.3s
+Yes
+Class for which Training is allowed: %s
+Number:     %-5s  Name:         %-30.30s
+Hidden Desc: %s
+             %s
+Level: %-5d                Number Allowed: %-5d  Active: %-5d
+Item Type: %-15.15s  Default Charge: %-5d
+Cost: %5d %-15.15s  Location Worn: %s
+Item Type: %-15.15s  Cost: %5d %-15.15s
+Accuracy: %-5d          Damage Resistance: %-5d Armour Rating: %-5d
+Damage: %5d - %-5d        Energy to use: %-5d
+Weapon Type: %-15.15s   Armour Type: %-15.15s
+Number %-5d  Name (%-30.30s) Level %d %s-%d
+Number:     %-5d  Name:         %-30.30s (%s)
+Energy Used: %-5d  Minimum Level to Use: %-5d
+Resist Message: %5d (%-15.15s) Magery Group: %-15.15s-%d
+Min Value: %d  Max Value: %d  Type: %s
+Target: %s
+Using alternate messaging style
+M1:%s
+M2:%s
+M3:%s
+No message specified
+Type: %-15.15s  Level: %5d Gen Num: %-5d
+Armour Rating: %-5d Leader Group: %-5d Aggressiveness: %-5d
+Exp/Level: %-5d  Max HP: %-5d  Max Energy: %-5d  Regen Rate: %-5d
+Max Allowed: %-5d  Active: %-5d
+Follower: %-10.10s  Turnable: %-3.3s  Alignment: %-15.15s
+Attacks:
+Val1 Min Max MS2 MS3 MS4 EU %
+Normal 
+Spell  
+Rob    
+None   
+%2d ????
+%d %d %d %d %d %d %d %d
+      Val1 Min Max MS2 MS3 MS4 EU %
+Spell %d %d %d %d %d %d %d %d
+[36m| 
+[37m| 
+[31m| 
+[33m| 
+[1;33m| 
+[1;31m| 
+[1;37m| 
+Neutral
+Seedy
+Outlaw
+Criminal
+Villain
+FIEND
+Good
+Saint
+[79D
+[K| 
+[1;33m| 
+To do this action, you must turn off your evil warnings.
+You have progressed too far to the evil side to do this action.
+You have chosen a way of life which does not allow this action.
+[1;30m| 
+A dark cloud passes over you
+%s %s %s %d rounds to go.
+robbed
+attacked
+Unknown user!
+WCC MAJOR MUD EVIL
+Cleared: %s
+Clearing:  
+Done
+[1;30m[
+[0mMAJORMUD Sysop
+[1;30m]
+[0m: 
+[0;37;40m| 
+Forgiving: (%d) %s To Forgive: (%d) %s
+List: Attacker (%d) %s Target (%d) %s
+WCCADDON.SYS
+[79D
+[K| 
+[1;37m| 
+The exit to the %s just opened!
+The exit to the %s just closed!
+The door to the %s just locked!
+The gate to the %s just locked!
+Failed (offgang) save player
+Duplicate user (offgang)?
+That gang doesn't exist!
+[79D
+[K| 
+[1;34m| 
+You have joined the gang %s.
+%s just joined your gang.
+You have not been invited to join that gang!
+playing
+break
+You may not perform any commands while waiting to exit!
+sysop
+You can't seem to move anywhere!
+You are too stunned to move anywhere!
+[1;31;40m| 
+You cannot speak!
+[79D
+[K| 
+You are using too much profanity - your message is not sent.
+[0;32m| 
+%s says "%s"
+From %s (Yelling): "%s"
+Someone yells from above "%s"
+Someone yells from below "%s"
+Someone yells from the %s "%s"
+[0;37m| 
+Your command had no effect.
+Well Spoken...
+You %s "%s"
+yell
+say
+Pend: %s
+Why don't you slow down for a few seconds?
+You are typing too quickly - command ignored
+[1;31;40m| 
+Entering cmd_any_attack!
+You are too afraid!
+You cannot attack yourself!
+[79D
+[K| 
+You are overcome with a feeling of guilt and break off your attack.
+[0;37;40m| 
+DEBUG : COULD NOT RESTART AUTOCOMBAT.
+You cannot backstab with this weapon.
+[79D
+[K| 
+[1m| 
+[31m| 
+You don't know the first thing about smashing!
+You bash the door open and walk through
+The door slams shut behind you!
+Your attempts to bash through fail!
+You must wait before you may do that!
+The %s is already open.
+door
+gate
+You see %s bash the %s above you.
+You see %s bash the %s below you.
+You see %s bash the %s to the %s.
+You bashed the %s open.
+You see %s attempt to bash the %s above you.
+You see %s attempt to bash the %s below you.
+You see %s attempt to bash the %s to the %s.
+You take %d damage for bashing the door!
+[79D
+[K| 
+[1;31m| 
+You need a weapon to bash with!
+You don't know the first thing about bashing!
+%s is looking around the room.
+The door is closed in that direction!
+There are no exits upwards!
+There are no exits downwards!
+There are no exits to the %s!
+%s is looking up.
+%s is looking down.
+%s is looking to the %s.
+[79D
+[K| 
+[0;35m| 
+%s peeks in from above!
+%s peeks in from below!
+%s peeks in from the %s!
+You do not see %s here!
+[0;36m| 
+%s looks %s up and down.
+[79D
+[K| 
+[0;36m| 
+%s is looking at you.
+Why would you want to look at that?
+Syntax: TRACK {monster}
+Your tracking skills fail you this time.
+Syntax: ROB {user/monster}
+[79D
+[K| 
+[1;31;40m| 
+You don't see that anywhere!
+Why would you want to rob from that?
+This is not a gang owned shop.
+You may not stock limited items!
+You may not stock that item!
+GANSHOP ITEM NMBRS SLOT %d => %s
+%lu
+free
+You add the %s to your shops stock.
+You see %s add a %s to the shops stock.
+No more new items may be stocked in this shop.
+You do not have the correct item to stock this shop.
+You cannot STOCK if you are not in your gangs shop!
+Syntax: STOCK {item} {price} {currency}
+all
+You remove all the items from your shop and place them on the floor.
+You see %s remove all items from the gang shop and place them on the floor.
+There are no stocked items to remove.
+FOUND ITEM IN STOCK.
+STOCK LEVEL 0
+You see %s remove a %s from the shops stock.
+You remove %s from the shops stock.
+REMOVING ITEM FROM STOCK LIST.
+This item is not currently in stock.
+You do not have the correct item to unstock this shop.
+You cannot UNSTOCK if you are not in your gangs shop!
+Syntax: UNSTOCK {item}
+New gang shop markup value set to %u percent.
+You do not have the correct item to set the markup value for this shop.
+You cannot MARKUP if you are not in your gangs shop!
+Syntax: MARKUP {percentage value}
+You cannot LIST if you are not in a shop!
+Syntax: BUY {item}
+room
+If you are a gang leader you may lease a Gang House.
+You cannot BUY if you are not in a shop!
+Syntax: SELL {item}
+You cannot SELL if you are not in a shop!
+gang
+[79D
+[K| 
+[1;34m| 
+%s has left %s.
+You have left %s.
+You are the leader - you may not leave your gang. Use DISBAND GANG
+You are not currently in a gang.
+%s just left your group (%d)
+You just left group %d.
+Syntax: FOLLOW {user/monster}
+[79D
+[K| 
+[0;37m| 
+You are now following %s
+%s started to follow you.
+You must be invited first!
+Why would you follow yourself?
+Following a monster - Not implemented yet.
+Why would you want to follow that?
+Syntax: JOIN {group number} or {user name} or GANG {gangname}
+You may not join another gang!  You are already a member of one.
+%s just left your channel (%d)
+%s just joined your channel (%d)
+You just joined channel %d.
+You are using too much profanity - your message is not sent.
+[79D
+[K| 
+[1;33m| 
+Broadcast from %s "%s"
+The following users are on channel %d:
+You may not sneak right now!
+Attempting to sneak...
+You don't think you're sneaking.
+Syntax: SNEAK
+PERFECT STEALTH
+You see %s pick the lock on the %s above you.
+You see %s pick the lock on the %s below you.
+You see %s pick the lock on the %s to the %s.
+You successfully unlocked the %s.
+Your skill fails you this time.
+Syntax: PICKLOCK {direction}
+You may not search while attacking!
+%s is searching the area.
+Why would you want to search that?
+Syntax: OPEN {Direction|Item}
+The %s was already open.
+The %s to the %s just opened.
+You see %s open the %s to the %s.
+The %s is now open.
+The %s is locked.
+The door was already open.
+The door to the %s just opened.
+You see %s open the door to the %s.
+The door is now open.
+The door is locked.
+That is not a door or a gate!
+There is nothing more that %s can do for you.
+You may not close doors or gates while attacking or being attacked!
+Syntax: CLOSE {Direction}
+The %s to the %s just closed.
+You see %s close the %s to the %s.
+The %s is now closed.
+That %s is not open. Closing it will do nothing!
+The door to the %s just closed.
+You see %s close the door to the %s.
+The door is now closed.
+You are no longer dragging %s.
+Syntax: DRAG {user name} [{direction}]
+Why would you want to drag yourself around?
+%s is already being dragged.
+Syntax: DRAG {user name} {direction} 
+You may not drag from the colliseum
+You are now dragging %s.
+%s is too healthy to be dragged.
+%s tried to drag you from the room.
+%s attempted to drag %s out of the room.
+Syntax: INVITE {user name}
+member
+You don't see %s here!
+Syntax: INVITE MEMBER {user name}
+You cannot invite %s.
+Lieutenant 
+Gang leader 
+%s has invited you to join %s.
+You have invited %s to join your gang.
+Why would you invite yourself?
+You must be the leader or a lieutenant of your gang to invite new members!
+[79D
+[K| 
+[1m| 
+[34m| 
+%s has invited you to follow %s.
+You have invited %s to follow you.
+Syntax: UNINVITE {user name}
+You are not able to uninvite the gang leader.
+You removed %s from your gang.
+Syntax: UNINVITE MEMBER {user name}
+You must be the gang leader to uninvite a lieutenant!
+Such insolence as this may not be tolerated if the gang leader were to be informed.
+%s has exiled you from %s.
+You have removed %s from your gang.
+%s is not in your gang.
+Why would you uninvite yourself?
+You must be the leader or lieutenant of your gang to uninvite members!
+[79D
+[K| 
+[0;31m| 
+%s has been removed from your followers.
+You may not do any training while in tournament mode!
+stats
+Your stats are unnaturally altered!  You may not train stats now.
+%s just left the Realm.
+You may not train your stats here!
+You have to telepath something!
+You have to specify a person to telepath to.
+You may not telepath while you are blocking telepaths.
+[79D
+[K| 
+[32m| 
+%s telepaths: %s%s
+What do you really mean?
+--- Telepath Sent to %s ---
+--- Telepath Not Sent ---
+Why are you telepathing to yourself?
+Cannot find user!
+You have to direct something!
+You have to specify a person to direct to.
+[79D
+[K| 
+[0;32m| 
+You may not direct any messages right now.
+%s says (to you) "%s"
+%s says (to %s) "%s"
+--- Message Directed to %s ---
+--- Message Not Sent ---
+Why are you directing messages to yourself?
+You may not lock doors or gates while attacking or being attacked!
+Syntax: LOCK {Direction}
+The door is now locked.
+You must close the door before you may lock it.
+The gate is now locked.
+You must close the gate before you may lock it.
+There is no benefit to locking in that direction.
+Syntax: LOCK {direction}
+%sThere is no map available for this room.
+guild
+You are not experienced enough to start your own gang!
+You are already in one gang.  You cannot create another one.
+The name you have chosen is too LONG: %s
+None
+You may not use 'None' as a gang name.
+You have specified an invalid character in your gang name.
+The name you have chosen is already being used!
+%s is the leader of %s.
+Gang created.
+Gang already exists?  Not created.
+Syntax: AID {user name}
+You have aided %s, %s wounds are now healing.
+%s has aided you.
+%s is in no need of assistance.
+The gods have forgiven you for your action.
+The gods have forgiven %s for %s action.
+The gods refuse to forgive %s for %s actions.
+%s gangpaths: %s%s
+[0;33m| 
+You are not in a gang at the present!
+Are you sure you want to disband %s? 
+You are not the leader of the gang; You may not disband it!
+cant find gang
+You are not in a gang!
+party
+Syntax: DISBAND {Party/Gang}
+gangs
+suicide
+Enter the current password:
+Enter New Password:
+keep
+If you die/reroll you will start with 0 experience.
+If you die/reroll you will keep some of your experience.
+(Currently disabled on this system)
+style
+You will now receive fantasy style messages.
+You will now receive technical style messages.
+gossip
+You will now receive gossip messages.
+You will no longer receive gossip messages.
+auction
+You will now receive auction messages.
+You will no longer receive auction messages.
+speech
+talk
+Talking mode is slow now.
+Talking mode is fast now.
+responses
+Responses to talking will be verbose now.
+Responses to talking will be brief now.
+interrupt
+PVP Combat will be displayed as normal messages.
+PVP Combat will now interrupt your typing and output.
+warning
+You will no longer be stopped from performing evil actions.
+You will now be warned and stopped from doing most evil actions.
+telepath
+Telepaths will no longer be blocked.
+Future telepaths will be blocked.
+entrances
+You will now see game broadcasts such as user entrances and exits.
+You will no longer see game broadcasts such as user entrances and exits.
+follow
+You will see your normal room descriptions when following.
+You will only see the fact that you have moved when following.
+receive
+You will now accept items/currency from other players.
+You will refuse any gifts from other players.
+page
+Paging is now set to Ok.
+Paging is now set to Off.
+You will now see all gang members.
+You will now only see online gang members.
+maxpages
+Please specify the maximum number of pages: SET MAXPAGES <n>
+messages
+Only important messages will be displayed now.
+All messages will now be displayed.
+Only some messages will be displayed now.
+Maxpages set to %d
+maxgossip
+Max gossips set to %d
+maxauction
+Max auctions set to %d
+gender
+male
+[79D
+[K| 
+[1;37m| 
+You hand over
+ and you are now male!
+You are now male!
+female
+ and you are now female!
+You are now female!
+Valid gender options: MALE, FEMALE
+You cannot afford to do that!
+You may not do that here!
+technical
+You will now receive techincal style messages.
+fantasy
+Valid style options: TECHNICAL, FANTASY
+Off
+Valid interrupt options: ON, OFF
+Valid gossip options: ON, OFF
+Valid auction options: ON, OFF
+off
+Valid KEEP options: ON, OFF
+brief
+verbose
+Valid interrupt options: BRIEF, VERBOSE
+High
+Medium
+Low
+Valid messaging options: High, Medium, Low
+Valid warning options: ON, OFF
+online
+Valid gang options: Online, All
+Valid telepath options: ON, OFF
+palette
+You will now use colour palette number 0.
+You will now use colour palette number 1.
+You will now use colour palette number 2.
+You will now use colour palette number 3.
+Valid palettes are: 0, 1, 2, 3
+Valid entrance options: ON, OFF
+Valid page options: ON/OK, OFF
+statline
+Full
+Valid statline options: ON, OFF, FULL, CUSTOM xxx, FULL CUSTOM xxx
+blind
+normal
+Valid follow options: BLIND, NORMAL
+fast
+Anything you type which is not recognized will be sent to the room.
+slow
+To talk to the room, you must begin your line with a %c
+Valid talk options: FAST, SLOW
+full
+custom
+Valid SET options: SUICIDE, MAXPAGES, MAXAUCTION, MAXGOSSIP, FOLLOW, INTERRUPT, RECEIVE, WARNING, TELEPATH, ENTRANCES, TALK, PALETTE, PAGE, KEEP
+CMD EXP : NEXT LEVEL EXP : BILLIONS %s REMAINDER %s
+CMD EXP : CURRENT EXP : BILLIONS %s REMAINDER %s
+CMD EXP : OLD CALC USING SINGLE PLACE-HOLDER
+%sExp: %s%s %sLevel: %s%d%s Exp needed for next level: %s%s (%s) [%d%%]
+[36m| 
+CMD EXP : NEW CALC USING TWO PLACE-HOLDERS
+%sExp: %s%s %sLevel: %s%d%s Exp needed for next level: %s%s (%s) [%s%%]
+%lu%09lu
+Syntax: SHARE {amount} {currency} [WITH ROOM/PARTY] - default: PARTY
+with
+Syntax: SHARE {amount} {currency} [WITH ROOM/PARTY]
+Syntax: PROMOTE {user name}
+You may not demote yourself to lieutenant. Your gang needs a leader!
+You may not promote somebody who is not in your gang!.
+You may not promote your gang leader!
+Your gang leader has promoted you to the rank of lieutenant.
+Gang member %s has been notified of their promotion.
+Gang member %s is already a lieutenant in your gang.
+Failed (offgang) save player for promotion flag
+Duplicate user (offgang) during promotion flag?
+Gang member %s will be notified of their promotion next time they log on.
+Perhaps you should invite %s into your gang first.
+Syntax: DEMOTE {user name}
+You wish to demote yourself from leader of your gang?
+You may not demote someone who is not in your gang!
+Your gang leader has demoted you.
+Gang member %s has been notified of their demotion.
+Gang member %s is not a lieutenant in your gang.
+Failed (offgang) save player for demotion flag
+Duplicate user (offgang) during demotion flag?
+Gang member %s will be notified of their demotion next time they log on.
+You may not demote somebody who is not in your gang.
+Stocking Info for shop %d:
+     [%d] %s %s 
+(%d)
+     Total I2R: %d
+AUTO UPDATE : skipping GANG SHOP.
+Done
+[1;30m[
+[0mMAJORMUD Sysop
+[1;30m]
+[0m: 
+[0;37;40m| 
+Done Updating
+MajorMUD Notice
+Automatic Database Update Complete
+Automatic updating in progress.  Please wait.
+File: %s  Date: %s  Time: %s  Size: %s
+%ld
+%8.8s %8.8s (%s)
+MajorMUD Found Database Update
+%s (%d) 
+Reindexing Limited Items:  
+Done Reindexing Items
+We highly recommend running the fast-offline recovery instead of using this routine.
+Deleting %s
+Checking for deleted users:  
+Cannot find %s -- Delete? 
+[79D
+[K| 
+User %s, game-id %s
+Total Time played: %s minutes
+%lu
+Last played on %s (%d days ago)
+Last logged in on %s (%d days ago)  BBS Class: %s/%s
+Current experience: %s
+Delete this user? (THERE IS NO UNDO) :
+Done Checking Users
+%s is online - no action taken.
+Checking for users with limited items: 
+Removing limited items from %s
+ERROR Updating %s!!!
+%s:%s (%d) 
+Race %s, Class %s, EP %d
+This user has at least one limited item in their possession.
+Remove ALL limited items from this user? (THERE IS NO UNDO) :
+Checking for users with limited items:  
+Another sysop may already be checking for limited items.
+It is strongly recommended that you both immediately exit this process
+and have only ONE person enter it at a time or you may remove items
+from the wrong person.
+%s 
+[79D
+[K| 
+%sSyntax: Read {Item}
+[1;31;40m| 
+%sSyntax: USE {Item to use} [{target}]
+You may not use that item!
+You must have that item readied to use it!
+You must be wearing that item to use it!
+Target type: %d, target: %d
+There are no more uses in %s.
+You don't have %s.
+You are too afraid!
+[79D
+[K| 
+You may not invoke... You are not KAI!  You must cast your spells.
+You have no powers to invoke!
+Your power fails!
+Syntax: INVOKE {power} [{target}]
+You may not cast... You are KAI!  You must invoke your powers.
+You have no spells to cast!
+Your spell fails!
+Syntax: CAST {spell} [{target}]
+find spell: %d/%d/%d
+You may not cast this spell.
+You do not see %s here!
+You are not carrying %s.
+Why would you want to cast a spell on that?
+You do not know how to cast %s.
+You may not exit MajorMud while you are mortally wounded!
+You will exit after a period of silent meditation.
+%s sits down and meditates.
+Syntax: GET {Item Name}
+You took %s.
+[79D
+[K| 
+[0;33m| 
+%s picks up %s.
+get currency
+[0;37;40m| 
+You picked up %s %s
+%lu
+%s picks up some %s.
+You don't see %s %s
+Syntax: GET %s {Currency}
+Syntax: GET {Amount} {Currency}
+You don't see any %s
+You don't see %s here.
+lance
+Demo mode enabled
+Reg# %s
+Lcon %d
+TCP_IP
+IP: :%s:
+SBBS Active
+Death Setting: %d
+Available SYSOP sub-commands (all preceded by SYSOP):
+  BUFFERS   -- Statistics on the memory buffers used [Clear/Save]
+  STATUS    -- View the status of another user or room [SYS STAT ROOM n]
+  MAP       -- Display a generated map of this area
+  GOD       -- Modify certain parameters of other players
+  LIST      -- List things such as USERS
+  REPORT    -- Various Game reports
+  LIGHTNING -- Force lightning to strike a user
+  GOTO      -- Teleport yourself to named locations
+  RELOAD    -- Reload settings from wccmmud.ini
+  INITIALIZE-- Re-initialize MajorMUD buffers
+  CONFIGURE -- Configure runtime parameters
+  RESET     -- Reset room or area monster generation
+  DISBAND   -- Disband a gang
+  DISABLE   -- Remove a gang from the topten gangs
+  ENABLE    -- Allow a gang back onto the topten gangs
+  GANGSIZE  -- Adjust gang size
+  ARENA     -- Change the status of the arenas
+Sysop Command by %s: %s
+debug
+off
+partial
+buffers
+Sysop debug mode set to %d
+monster
+Syntax: SYSOP MONSTER <number> <room> <map> <min level> <max level>
+dump
+1.11p
+beta
+reset
+room
+Done
+area
+experience
+Done - Exp flag Unmarked
+Done - Exp flag marked - Exp restructured
+Syntax: SYSOP RESET <room/area>
+clear
+save
+reload
+INI Settings reloaded.
+initialize
+Syntax: SYSOP INITIALIZE {rate} [RECOVER]
+recover
+summon
+%s conjured.
+No item or spell by that name exists!
+express_train
+goto
+You may not be in autocombat when you do that.
+You may not teleport during a PVP retaliation period.
+newhaven
+silvermere
+support
+rhudaur
+%sYou must purchase the %s%s%s before you may move through this exit.
+[0;37m| 
+[1;37m| 
+khazarad
+lostcity
+Current GOTO locations: NEWHAVEN, SILVERMERE, SUPPORT, RHUDAUR,
+                        KHAZARAD, LOSTCITY
+lightning
+[79D
+[K| 
+[1;33m| 
+A bolt of lightning from the heavens strikes you for %d points damage!
+A bolt of lightning just struck %s!
+MajorMUD - Notice
+Lightning struck: %s by %s
+You may not lightning that user.
+SYSOP LIGHTNING <userid>
+transfer
+Info: %s
+values
+Cannot find user %s
+status
+disband
+Syntax: SYSOP DISBAND <gangname>
+Gang %s has been disbanded and will be deleted at cleanup.
+Gang %s not found.
+speak
+You have spoken.
+arena
+Arena rooms are in normal mode (death does not count)
+Arena rooms are in combat mode (death DOES count)
+normal
+Arena rooms are already in normal mode.
+You cannot switch arena mode while users are currently in arena rooms!
+Arena rooms are now in normal mode (death does not count)
+combat
+Arena rooms are now in combat mode (death DOES count)
+Arena rooms are already in combat mode.
+Syntax: SYSOP ARENA [status/normal/combat]
+disable
+Syntax: SYSOP DISABLE <gangname>
+Gang %s has been disabled and will not appear on the top gangs.
+enable
+Syntax: SYSOP ENABLE <gangname>
+Gang %s has been enabled and will appear on the top gangs listing again.
+gangsize
+Syntax: SYSOP GANGSIZE <n> <gangname>
+Gang %s has been resized to %d.
+You cannot set the gangsize to 0
+god
+Syntax: SYSOP GOD <user> <command>
+Valid options: ADD LIFE, CLEAR SUICIDE, ADD EVIL n, SPEAK xxx, 
+CHANGE NAME, DISABLE TOPTEN, ENABLE TOPTEN, INVENTORY, PROFILE, 
+SPELLS, POWERS, GOOD, SAINT, NEUTRAL, LAWFUL, UNLAWFUL, RETRAIN, ABILITIES
+VERIFY ABILITIES, STATUS, INFO, CHANGE SEX, JAIL
+inventory
+profile
+spells
+powers
+abilities
+info
+Hit any key to continue...
+BBS Userid: %s
+retrain
+The next time %s logs into MajorMUD they will have to retrain their stats.
+good
+saint
+neutral
+lawful
+unlawful
+jail
+SPELLS, POWERS, GOOD, SAINT, NEUTRAL, LAWFUL, UNLAWFUL, RETRAIN
+add
+life
+%s added life to %s
+evil
+No add command done.
+suicide
+No clear command done.
+The gods tell you: %s
+change
+name
+That name is too LONG.
+You may not use that name.
+Name changed -- Warning, this function should NOT be used 
+on a routine basis as it may not change all that is required.
+NOTE also that you probably just had a VERY LONG system pause and that is expected.
+gang
+%s's gangname changed from %s to 
+You must manually update each gang's user counts.
+sex
+%s has been changed to a 
+female.
+No change command done.
+topten
+No disable command done.
+No enable command done.
+verify
+User not found.
+You may only verify abilities.
+No god command executed.
+emulate
+noemulate
+list
+items
+known_monsters
+newlimited
+limited_items
+active_monsters
+users
+text
+restock
+No List command done.
+No list command done.
+Valid lists: USERS, EVIL, GANG <gangname>, LIMITED_ITEMS, NEWLIMITED (monster | map (map_no) | user (user_name) | name item_name)
+             ITEMS, KNOWN_MONSTERS, ACTIVE_MONSTERS, SPELLS, TEXT, RESTOCK
+report
+Current reporting options are:
+USERS, NOTOPTEN
+notopten
+memory
+map
+ljn$$tmp.map
+configure
+show
+Current Configuration Settings:
+Monster Generation Rate:     %d seconds
+Minutes before regenerating: %d minutes
+Normal Credit Consumption:   %d
+Exempt Credit Conusmption:   %d
+Free time for exempt users:  %d
+Maximum users in game:       %d
+Current pollrate:            %d
+Current initrate:            %d
+Limited item tracking enabled
+Logfile: %s
+No configure command done.
+genrate
+Monster Generation Rate: %d seconds
+minwait
+maxusers
+The maximum number of users in the game is now %d.
+Invalid option!
+Valid options: SHOW, GENRATE, MINWAIT, MAXUSERS
+Valid options: SHOW, MAXUSERS
+tweak
+Done.
+No command done.
+randomhp
+Before: %d
+intellect
+wisdom
+strength
+health
+agility
+charm
+light
+New light level: %d
+lives
+level
+class
+race
+revision
+mana
+copper
+gold
+userdefined
+No change made.
+Valid edits: HP, Intellect, Wisdom, Strength, Health, Agility, Charm,
+             Experience, Light, Level, Mana, Gold, UserDefined, Evil
+             Class, Race, Lives, Copper, revision
+OR sysop edit clear
+Command not recognized.
+Syntax: DROP {Item Name}
+[79D
+[K| 
+[1;31;40m| 
+You may not drop that item!
+You dropped %s.
+%s dropped %s.
+There is no room to drop %s here.
+drop currency
+[79D
+[K| 
+[0;37;40m| 
+You dropped %s %s.
+%s dropped some %s.
+You don't have %s %s to drop!
+Syntax: DROP %s {Currency}
+Syntax: DROP {Amount} {Currency}
+You don't have %s to drop!
+Attempting to hide...
+ You don't think you are hidden.
+You can't seem to move anywhere to hide!
+You are too stunned to move anywhere to hide!
+You must wait before you may do that!
+You may not hide that item!
+You hid %s.
+There is no room to hide %s here.
+hide currency
+You hid %s %s.
+You don't have %s %s to hide!
+Syntax: HIDE %s {Currency}
+The current light level is %s
+Debug Light value: %d
+You may not light that item!
+You already have something lit!
+You lit the %s.
+%s lights %s %s.
+%sYou cannot light %s!
+You must recharge that before you may light it again.
+You eat the %s.
+%s eats %s.
+You drink the %s.
+%s drinks %s.
+There is nothing more that %s can do for you.
+Why would you want to give to that?
+%s refuses your offer.
+give currency
+You gave %s %d copper
+%s gave you %d copper
+%s just gave %s some coins.
+You do not have that much copper!
+You gave %s %d silver
+%s gave you %d silver
+You do not have that much silver!
+You gave %s %d gold
+%s gave you %d gold
+You do not have that much gold!
+You gave %s %d platinum
+%s gave you %d platinum
+You do not have that much platinum!
+You gave %s %d %s
+%s gave you %d %s
+You do not have that many %s!
+Syntax: GIVE {amount} {currency} TO {someone}
+You may not give that item away!
+You just gave %s to %s.
+%s just gave you %s.
+%s just gave %s something.
+%s cannot accept your offer.
+You do not have %s left unequipped.
+Syntax: DEPOSIT {Amount to deposit in copper}
+You see %s making a deposit.
+Please specify a more reasonable amount.
+You cannot DEPOSIT if you are not in a bank!
+Syntax: WITHDRAW {Amount to withdraw in copper}
+You see %s making a withdrawal.
+You cannot WITHDRAW if you are not in a bank!
+Syntax: BANKBOOK
+You can't seem to move anywhere!
+[79D
+[K| 
+[0;37m| 
+Sneaking...
+[79D
+[K| 
+[1;37m| 
+You are too heavy to move anywhere!
+Delay: %d
+There is no exit in that direction!
+%s ran into the wall to the %s.
+You are no longer sneaking.
+You successfully disarmed the trap to the %s.
+%s%s
+[0;32m| 
+[79D
+[K| 
+[0;32m| 
+[79D
+[K| 
+[1;31m| 
+You failed to disarm any trap to the %s.
+You may not suicide or reroll during a tournament.
+You may not suicide or reroll in this room!
+now
+Enter your suicide password:
+You will now receive gossip messages.
+You will no longer receive gossip messages.
+You may not use gossip - please contact your sysop.
+You may not use gossip while your gossip is turned off.
+Type 'gossip' to turn gossip on again.
+You are using too much profanity - your message is not sent.
+%s gossips: 
+You will now receive auction messages.
+You will no longer receive auction messages.
+You may not use auction - please contact your sysop.
+You may not use auction while your auction is turned off.
+Type 'auction' to turn auction on again.
+%s auctions: 
+Purging spell %s from your spellbook.
+[79D
+[K| 
+[1;31m| 
+Please be more specific.  You could have meant any of these:
+[0;37m| 
+-- %s
+find result: %d/%d/%d
+f_nomon %d/%d (%d) 
+fc_nomon
+find_item: Item not found: %d
+only unworn, looking at: %s
+only unworn, found %s as a light source
+only unworn, found %s as a current weapon
+only worn, looking at: %s
+only worn, found %s at %d
+only worn, found %s as a light source
+only worn, found %s as a current weapon
+cannot use: %s
+unknown
+find item result: %d/%d
+WCCMMUD
+gentext
+[1;21r
+[21;1f
+[1;21r
+[21;1f
+[%dC
+[22;24r
+[0;37;40m
+[22;24r
+Characters currently on vacation:
+%-30.30s %-10.10s %-10.10s %-10.10s %-10.10s
+Name
+Race
+Class
+Experience
+Level
+No vacation database found so vacation module inactive
+MajorMUD Vacations
+P - Put character on vacation
+L - List vacationing characters
+R - Restore a vacationing character
+X - Exit (return to main MajorMUD Menu)
+N/A
+[0;37;40m| 
+[0;32m| 
+[0;33m| 
+[0;35m| 
+[1;35m| 
+[0;37m| 
+[0;36m| 
+[1;36m| 
+[1;37m| 
+[1;31m| 
+[1;34m| 
+[0;31m| 
+[0;30m| 
+[47m| 
+[40m| 
+Area Reset - monsters will start generating appropriately.
+Room reset - monsters will start generating appropriately.
+Recovery will be done during next shutdown period.
+You are blind.
+The room is %s - you can't see anything
+WCCDMA.SYS
+TCP_IP
+Failed first check
+Failed lookup ip %s, %s, %s
+PAUSE_FU
+FU_PAUSE
+UNPAUSE_FU
+FU_UNPAUSE
+Action number: %d Exit: %d Room: %d
+[79D
+[K| 
+[79D
+[K| 
+[1;37m| 
+A concealed passage opens to the %s.
+N/A
+The %s above you just flew open.
+door
+gate
+The %s below you just flew open.
+The %s to the %s just flew open.
+share_currency
+You do not have enough to share!
+You gave %s %d %s
+%s gave you %d %s
+%s just gave %s some coins.
+There is nobody to share with.
+Apprentice
+Adventurer
+Lady
+Lord
+Master
+You cannot remove %s!
+[79D
+[K| 
+[0;33m| 
+You now have no weapon readied.
+%s removes %s.
+[79D
+[K| 
+[1;31m| 
+You may not use that weapon.
+You may not ready a 2-handed weapon with your %s worn!
+%s wields %s!
+You are now holding %s.
+This weapon feels heavy in your hands.
+You are extremely quick and deadly with this weapon.
+%s is not a weapon!
+You do not have a %s.
+Failed save player
+Duplicate user?
+Your player has not been saved.  Please contact your sysop
+to purchase an appropriate pass.
+[2J
+[1;24r
+[%d;%df
+[1;24r
+[23;1H
+[22;24r
+[23B
+[1;24r
+[2J
+WCCMMUD
+<none>
+sau:vterm 
+sau:scan
+sau:muduser
+sau:vterm
+sau:gencmnd
+sau:exitmud
+[79D
+[K| 
+%s just entered the Realm.
+Your %s has returned to its rightful place.
+Failed to drop %s%s in %d/%d
+limited 
+Sui:Item %d not found
+Sui:Key %d not found
+[1;31;40m| 
+User %s has rerolled.
+After a LONG thought, you take your own life
+[0;37;40m| 
+User %s has committed suicide.
+After a LONG thought, you take your own life.
+You now have %d lives remaining.
+[79D
+[K| 
+%s took their own life!
+udpate_weight: Item not found: %d
+udpate_weight: Key not found: %d
+Your experience has not been restructured for the new system.
+Please exit and re-enter The Realm. This should restructure your experience points.
+You gain %s experience.
+%ld
+[79D
+[K| 
+agility
+strength
+intellect
+wisdom
+health
+charm
+spellcasting
+perception
+stealth
+thievery
+traps
+picklocks
+tracking
+magicresistance
+current_hp
+teleport_silvermere
+teleport_sewers
+teleport_slumsewers
+teleport_slums
+teleport_darkwood
+teleport_eldergrove
+teleport_labyrinth
+teleport_blackcaverns
+teleport_fungushazy
+teleport_crackedlava
+teleport_blackfortress
+teleport_obsidian
+set
+check
+test
+clear
+You don't know what to do with this!
+You learn the spell %s.
+price
+cast
+giveability
+addability
+teleport
+removeability
+nomonsters
+needmonster
+summon
+message
+takeitem
+addexp
+giveitem
+hideitem
+checkability
+class
+race
+goodaligned
+evilaligned
+minlevel
+maxlevel
+checkitem
+failitem
+text
+roomtext
+roomitem
+failroomitem
+clearitem
+addevil
+testability
+failability
+remoteaction
+random
+adddelay
+testskill
+checkskill
+givecoins
+test_tournament
+checkspell
+flag
+learnspell
+Checking for %s in %s
+Line %d:%s
+WCC PERMANENT USER
+Cleared Profile: %s
+Clearing:  
+Done
+[1;30m[
+[0mMAJORMUD Sysop
+[1;30m]
+[0m: 
+[0;37;40m| 
+WCCSYSOP.BUL
+[0;37m| 
+%s%s
+[1;30m[
+[0mMAJORMUD Sysop
+[1;30m]
+[0m: 
+[0;37;40m| 
+Attention!
+[1;30m[
+[37mCHANGERACE
+[30m] . 
+[0mRace/Class Change
+[1;30m[
+[37mCHANGERACE
+[30m] . 
+[0mRace Change
+ [%d game minutes left]
+ [Last chance]
+[1;30m[
+[37mSYSOP
+[30m] . 
+[0mFor Sysop Menu
+*** MajorMUD Tournament Play enabled! ***
+[30m
+[40m
+[31m
+[42m
+[32m
+[33m
+[43m
+[34m
+[44m
+[35m
+[45m
+[36m
+[46m
+[37m
+[47m
+%s%d%s
+[1m
+[0m
+[4m
+[5m
+[7m
+ (Resting) 
+ (Meditating) 
+%lu
+nothing
+Off
+[79D
+[K| 
+[HP=%s%d%s/%s=%s%d%s]:%s
+KAI
+[HP=%s%d%s%s]:
+Energy=%d 
+Snk 
+JstEnt 
+Hdn 
+[0;37;40m| 
+GANGSHOP DEPOSIT : %s : %s copper farthings.
+[1;31;40m| 
+Account balance for %s at or near maximum. BALANCE %s
+No bankbook found for %s. Purchase deposit failed!
+Saving error
+No bankbooks
+MajorMUD Addon Found
+Lawful
+%ld
+[79D
+[K| 
+The room
+Your %s has been shattered!
+%s cast %s on you for %d damage.
+%s (%d)
+Forgotten Users:
+You have not forgotten any users.
+You have no longer forgotten %s
+Your forget list is too long.
+You have now forgotten %s
+TRACK_LIMITED
+LOGFILE
+EXP_IN_TOPGANG
+LOG_SYSOP_COMMANDS
+TOURNAMENT_PLAY
+UPDATE_SPEED
+SYS_MAP_KEY
+SYS_REPORT_KEY
+SYS_GOTO_KEY
+SYS_LIGHTNING_KEY
+SYS_STATUS_KEY
+SYS_RESET_ROOMS
+SYS_ADDLIFE_KEY
+SYS_RETRAIN_KEY
+SYS_ALIGNMENT_KEY
+SYS_EDITEVIL_KEY
+SYS_JAIL_KEY
+SYS_SPEAK_KEY
+SYS_LISTUSER_KEY
+SYS_LISTLIMIT_KEY
+SYS_USERINFO_KEY
+SYS_CHANGE_KEY
+SYS_TOPTEN_KEY
+SYS_DISBAND_KEY
+SYS_BUFFERS_KEY
+SYS_CLEARSUICIDE_KEY
+MAXIMUM_BANK_BALANCE
+ENABLE_CLASS_CHANGE
+BLANK_LASTNAME_ALLOWED
+RACE_CHANGE_DURATION
+CODEC_OF_TWINKS
+SYS_LOG_DEATHS
+KID_GLOVES
+SYS_DISABLE_GANGS
+wccmmud.ini
+wccmmud.log
+%s%s
+[1;30m[
+[0mMAJORMUD Sysop
+[1;30m]
+[0m: 
+[0;37;40m| 
+%s %s:
+MMErrors.log
+EDITED
+log.log
+Restructured experience for %s
+userid = %s  exp = %lu  new_Exp = %lu%lu
+__GetExceptDLLinfo
+cw3220mt.DLL
+KERNEL32.dll
+WGSERVER.EXE
+GALGSBL.dll
+GALME.dll
+_memset
+_strcmp
+_access
+_strstr
+_abort
+_fgets
+_strchr
+_fflush
+_strcat
+_memmove
+_strtok
+__free_heaps
+_tolower
+__ErrorMessage
+_flushall
+_toupper
+_memcpy
+_strlen
+___debuggerDisableTerminateCallback
+_sprintf
+__startupd
+_strncpy
+_time
+__ExceptionHandler
+_srand
+__ctype
+@_CatchCleanup$qv
+_unlink
+__startup
+_vsprintf
+@__unlockDebuggerData$qv
+_strcpy
+_fprintf
+_fopen
+_fread
+_memcmp
+@__lockDebuggerData$qv
+_strncat
+_fclose
+_atol
+GetVersion
+GetProcAddress
+GetModuleHandleA
+_curcury
+_nglobs
+_cofdat
+_cntdir
+_margv
+_margc
+_clrprf
+_chropt
+_l2as
+_channel
+_catastro
+_c2bcpy
+_clsmsg
+_namtmp
+_cnvs2d
+_now
+_curcurx
+_numopt
+_curusr
+_hdlinp
+_globs
+_byenow
+_injacr
+_galfree
+_fsdxan
+_fsdscb
+_lngrnd
+_b2ccpy
+_haskey
+_alczer
+_fsdnan
+_alcmem
+_alcblok
+_txtvars
+_fsdapr
+_accbb
+_echsec
+_echonu
+_tfsopn
+_tfsbuf
+_echon
+_tfsrdl
+_findtvar
+_uacoff
+_fsdbkg
+_fsdego
+_fsdemg
+_vdasiz
+_fsdord
+_fsdrft
+_fsdroom
+_dfsthn
+_stp4cs
+_begin_polling
+_genbb
+_getFileTm
+_gmdnam
+_dfaUpdateDup
+_bgnedt
+_stgopt
+_dfaStepLock
+_inplen
+_input
+_stdmchk
+_lastwd
+_listing
+_locate
+_status
+_dfaSetBlk
+_msgscan
+_msysid
+_dfaRstBlk
+_ncdate
+_ncedat
+_nctime
+_skpwht
+_dfaQueryNP
+_nterms
+_numbyts
+_dfaQuery
+_odedcrd
+_opnmsg
+_othusn
+_senddpk
+_sameto
+_dfaOpen
+_dfaMode
+_rtkick
+_dfaInsertV
+_dfaInsertDup
+_rstmbk
+_rsp2write
+_dfaGetAbsLock
+_rsp2read
+_rmvwht
+_dfaDelete
+_rejectreq
+_register_textvar
+_dfaCountRec
+_register_module
+_register_agent
+_rstrin
+_rstrxf
+_dfaClose
+_sameas
+_samein
+_samepatu
+_ptrblok
+_profan
+_setmbk
+_shocst
+_dfaAcqLock
+_skpwrd
+_sortstgs
+_spr
+_prfptr
+_prfmsg
+_dfaAcqAbsLock
+_stop_polling
+_prfbuf
+_stzcpy
+_syscyc
+_tfsabt
+_prf
+_dfaAbs
+_tfspfx
+_tfspst
+_prat
+_tfstate
+_today
+_tokopt
+_parsin
+_depad
+_uidarr
+_usaptr
+_usrnum
+_usroff
+_usrptr
+_vdaptr
+_paccit
+_vdatmp
+_version
+_vfyadn
+_vtmsend
+_vtmsndok
+_ynopt
+_genrdn
+_otstcrd
+_dclvda
+_hrtval
+_btuica
+_btuxnf
+_btuxmt
+_btuxct
+_btutsw
+_btutrg
+_btuoes
+_btumil
+_btulok
+_btuinp
+_btuinj
+_btuibw
+_bturno
+_btuech
+_btuclo
+_btucli
+_simpsnd
+wccmmud.DLL
+_ErrorLog
+_MMLog
+__DebuggerHookData
+_add_cast_spell_to_monster
+_add_cast_spell_to_user
+_add_delay
+_add_delayed_command
+_add_duration_spell_to_room
+_add_evil_points
+_add_evil_timer
+_add_evil_warnings_to_room
+_add_exit_to_list
+_add_experience
+_add_item_to_inventory
+_add_item_to_room
+_add_logical_to_monster
+_add_logical_to_room
+_add_logical_to_user
+_add_monster_to_room
+_add_multiple_option
+_add_quest_exp
+_add_spell_to_spellbook
+_add_to_group
+_addon_adding_life_to_user
+_addon_adjust_user_wealth
+_alloc_get_spell_data
+_allocate_buffers
+_already_evil
+_ask_monster_a_question
+_attack_monster_monster
+_attack_monster_user
+_attack_user_monster
+_attack_user_user
+_attacker_is_in_same_room
+_attacker_type
+_attempt_to_forgive
+_automatic_update_polling_routine
+_background_energy
+_background_fast
+_background_inactivity
+_background_medium
+_background_monster_create
+_background_other
+_background_save_buffers
+_background_slow
+_background_update_exits
+_begin_clearing_evil_points
+_begin_clearing_permanent_info
+_begin_refreshing_limited_items
+_begin_updating
+_begin_user_item_xref
+_begin_user_xref
+_borrow_gold
+_build_kai_power_cache
+_buy_item
+_calc_exp_needed
+_calc_minutes_difference
+_calculate_attack
+_calculate_secondary_stats
+_can_see
+_can_sneak
+_can_user_change_race
+_cast_item_target
+_cast_monster_target
+_cast_no_target
+_cast_user_target
+_change_user_rank
+_check_begin_updating
+_check_confusion
+_check_currency
+_check_initiate_restocking
+_check_kill_monster
+_check_kill_user
+_check_monster_confusion
+_cleanup_currency
+_cleanup_data_for_cs
+_cleanup_pending_commands
+_cleanup_when_user_leaves
+_clear_autocombat_info
+_clear_backstab_attack_type
+_clear_bankbook
+_clear_bankbooks_to_null
+_clear_class
+_clear_classes_to_null
+_clear_evil_points_routine
+_clear_forget_list
+_clear_gang
+_clear_gang_invitations
+_clear_gangs_to_null
+_clear_item
+_clear_items_to_null
+_clear_known_monster
+_clear_known_monsters_to_null
+_clear_message
+_clear_messages_to_null
+_clear_monster
+_clear_monsters_to_null
+_clear_permanent_routine
+_clear_player
+_clear_players_to_null
+_clear_race
+_clear_races_to_null
+_clear_room
+_clear_rooms_to_null
+_clear_search_flags
+_clear_shop
+_clear_shops_to_null
+_clear_spell
+_clear_spell_told_flags
+_clear_spells_to_null
+_clear_statistics
+_close_update_db
+_cmd_aid
+_cmd_any_attack
+_cmd_appraise
+_cmd_ask
+_cmd_attack
+_cmd_auction
+_cmd_backstab
+_cmd_bankbook
+_cmd_bash
+_cmd_borrow
+_cmd_broadcast
+_cmd_broadgang
+_cmd_buy
+_cmd_cast
+_cmd_close
+_cmd_create
+_cmd_demote
+_cmd_deposit
+_cmd_direct_message
+_cmd_disarm
+_cmd_disband
+_cmd_drag
+_cmd_drink
+_cmd_drop
+_cmd_eat
+_cmd_equip
+_cmd_experience
+_cmd_follow
+_cmd_forget
+_cmd_forgive
+_cmd_get
+_cmd_give
+_cmd_global
+_cmd_gossip
+_cmd_greet
+_cmd_guard
+_cmd_hide
+_cmd_identity
+_cmd_invite
+_cmd_join
+_cmd_jumpkick
+_cmd_kick
+_cmd_killblow
+_cmd_leave
+_cmd_light
+_cmd_list
+_cmd_lock
+_cmd_look
+_cmd_map
+_cmd_markup
+_cmd_mesmerize
+_cmd_move
+_cmd_open
+_cmd_picklock
+_cmd_promote
+_cmd_punch
+_cmd_purge
+_cmd_quit
+_cmd_repay
+_cmd_rob
+_cmd_search
+_cmd_sell
+_cmd_set
+_cmd_share
+_cmd_smash
+_cmd_sneak
+_cmd_stock
+_cmd_suicide
+_cmd_sysop
+_cmd_tame
+_cmd_topten
+_cmd_track
+_cmd_train
+_cmd_uninvite
+_cmd_unstock
+_cmd_use
+_cmd_whisper
+_cmd_withdraw
+_commands_pending
+_commit_suicide
+_compute_energy_used
+_confirm_monster_in_room
+_convert_currency
+_count_valid_targets
+_create_player
+_decrement_evil_timers
+_deduct_currency
+_deduct_exempt_credits
+_deduct_item_charge
+_delay_done
+_delete_evil_points
+_delete_monster
+_delete_offline_mmud_user
+_delete_permanent_info
+_delete_player
+_delete_users_bankbooks
+_deposit_gangleaders_account
+_deposit_gold
+_dir_monster_travelling_coord
+_dir_player_travelling_coord
+_direction_player_travelling
+_dismiss_users_angels
+_display_LONG_room_desc
+_display_LONG_text
+_display_LONG_text_to_room
+_display_a_top_gang
+_display_all_restocking_required
+_display_attack_values
+_display_autocombat_broken
+_display_bank_balance
+_display_buffer_statistics
+_display_class_list
+_display_coin_description
+_display_conversion_rates
+_display_debug_room_stats
+_display_desc_from_file
+_display_entry_movement
+_display_evil_star
+_display_evil_timers
+_display_gang_members
+_display_hidden_exit_status
+_display_inventory_items
+_display_item_desc
+_display_item_in_shop
+_display_items_in_room
+_display_list_of_actions
+_display_list_of_all_active_monsters
+_display_list_of_all_items
+_display_list_of_all_known_monsters
+_display_list_of_all_spells
+_display_list_of_limited_items
+_display_monster_desc
+_display_movement
+_display_new_list_of_limited_items
+_display_next_reported_user
+_display_next_topten
+_display_next_topten_gang
+_display_online_gang_members
+_display_only_topten
+_display_party
+_display_profile
+_display_protected_reason
+_display_race_list
+_display_recovery_mode_status
+_display_room_desc
+_display_scan_of_users
+_display_shop_items
+_display_spell_desc
+_display_spell_success
+_display_sysop_bulletin
+_display_sysop_user_report
+_display_top_gang_header
+_display_top_gangs
+_display_topten
+_display_user_desc
+_display_users_bankbooks
+_display_users_hidden_in_room
+_display_users_keys
+_display_users_spells
+_display_visible_exits
+_dispose_of_item_in_room
+_dispose_of_item_in_trail
+_distribute_experience
+_do_autocombat
+_do_autocombat_for_user
+_drag_user
+_edit_character_stats
+_edit_sysop_bulletin
+_end_listing
+_end_release_note_listing
+_energy_update_character
+_energy_update_monster
+_engage_autocombat
+_equip_apply_item_abilities
+_evil_for_robbing
+_execute_input
+_execute_pending_command
+_fast_update_character
+_fast_update_characters
+_fast_update_monster
+_fast_update_monsters
+_fast_update_next_monster
+_find_action_target
+_find_any_action_target
+_find_item_in_inventory
+_find_item_in_room
+_find_monster_in_memory
+_find_mud_action
+_find_player
+_find_spell_in_spellbook
+_find_user_name
+_free_spell_data
+_generate_monster
+_generate_top_list
+_get_armour_rating
+_get_bankbook_data
+_get_class_data
+_get_class_name
+_get_coin_weight
+_get_component_string
+_get_damage_descriptor
+_get_encumbrance_percent
+_get_gang_data
+_get_hp_colour
+_get_item_ability_value
+_get_item_data
+_get_item_from_name
+_get_known_monster_data
+_get_last_active_monster_number
+_get_last_item_number
+_get_last_known_monster_number
+_get_last_room_number
+_get_last_spell_number
+_get_legal_level
+_get_light_level
+_get_max_weight
+_get_message_data
+_get_monster_ability_value
+_get_monster_data
+_get_mud_ini_value
+_get_my_attack_type
+_get_player
+_get_race_data
+_get_race_name
+_get_random_name
+_get_room_data
+_get_saved_evil_points
+_get_shop_data
+_get_shop_item_from_name
+_get_spell_ability_value
+_get_spell_data
+_get_spell_from_name
+_get_spell_match_type
+_get_spell_random_modifier
+_get_text_block
+_get_unique_active_monster_number
+_get_user_ability_value
+_get_user_currency
+_get_user_number
+_get_user_number_from_id
+_get_users_bankbook_balance
+_give_monsters_a_free_attack
+_h_ljnsame
+_handle_CHAR_input
+_handle_commands
+_handle_following_monsters
+_handle_ljn_actions
+_help_text
+_init__wccmmud
+_init_autocombat
+_init_emulation
+_initialize_ljngame_actions
+_internal_error
+_invalid_global
+_invite_to_gang
+_is_being_attacked
+_is_combatting_monster
+_is_combatting_user
+_is_in_pvp_combat
+_is_in_retaliation
+_is_inside_autocombat
+_is_user_forgotten
+_is_valid_monster_target
+_is_valid_target
+_is_weapon_too_fast_for_user
+_item_has_ability
+_item_is_in_stock
+_join_gang
+_kill_autocombat
+_kill_autocombat_against
+_kill_autocombat_against_monster
+_ljndun
+_ljngame_dlarou
+_ljngame_finrou
+_ljngame_huprou
+_ljngame_injrou
+_ljngame_lofrou
+_ljngame_lonrou
+_ljngame_mcurou
+_ljngame_stsrou
+_ljngame_sttrou
+_ljngame_user_polling_routine
+_ljngame_validate_name_polling
+_ljnsame
+_ljnvfy
+_load_bankbook_into_buffer
+_load_class_into_buffer
+_load_gang_into_buffer
+_load_item_into_buffer
+_load_known_monster_into_buffer
+_load_message_into_buffer
+_load_monster_into_buffer
+_load_monster_quickreferences
+_load_player
+_load_race_into_buffer
+_load_room_into_buffer
+_load_shop_into_buffer
+_load_spell_into_buffer
+_majormud_send_mail
+_majormud_syscyc
+_match_combat_target
+_match_string
+_medium_update_character
+_medium_update_characters
+_medium_update_monster
+_medium_update_monsters
+_medium_update_next_monster
+_mem_get_bankbook
+_mem_get_class
+_mem_get_gang
+_mem_get_item
+_mem_get_known_monster
+_mem_get_message
+_mem_get_monster
+_mem_get_race
+_mem_get_room
+_mem_get_shop
+_mem_get_spell
+_monster_add_cast_spell_to_user
+_monster_add_duration_spell_to_room
+_monster_cast
+_monster_cast_area
+_monster_could_attack
+_monster_count_valid_targets
+_monster_display_spell_success
+_monster_has_ability
+_monster_rob_user
+_monster_update_room_users_stats
+_move_monster
+_move_monster_to_fighter
+_move_player_to_fighter
+_move_user
+_my_rtkick
+_negate_dynamic_with_ability
+_new_calc_exp_needed
+_one_time_class_change
+_one_time_race_change
+_parse_command
+_parse_p_command
+_parse_r_command
+_parse_s_command
+_parse_t_command
+_parse_u_command
+_parse_w_command
+_perform_kicks
+_perform_matched_action
+_perform_random_event
+_perform_routine_spell_monster_upkeep
+_perform_routine_spell_player_upkeep
+_perform_special_command
+_perform_spell_termination_monster_upkeep
+_perform_spell_termination_player_upkeep
+_perform_text_block_as_special_command
+_pick_valid_random_direction
+_preload_and_generate_buffers
+_prf_custom_statline
+_prf_menu
+_prf_prompt
+_prf_wait_cycle
+_printmap
+_process_room
+_proper_currency_name
+_purge_spell_from_spellbook
+_ready_weapon
+_refresh_items_polling_routine
+_refresh_search_active
+_refresh_search_none
+_refresh_search_rooms
+_refresh_search_users
+_register_mud_addon
+_reinitialize_buffers
+_reload__wccmmud
+_remove_armour
+_remove_from_gang
+_remove_from_group
+_remove_item_from_inventory
+_remove_item_from_room
+_remove_logical_from_monster
+_remove_logical_from_room
+_remove_logical_from_user
+_remove_offline_user_from_gang
+_remove_reroll
+_remove_single_timer
+_remove_users_bankbooks
+_repay_gold
+_reset_multiple_options
+_restart_autocombat
+_restock_items
+_restructure_experience
+_retrieve_public_userinfo
+_retrieve_public_usrnum_userinfo
+_rob_monster
+_rob_user
+_roll_stats
+_room_cast_on_monster
+_room_cast_on_user
+_save_bankbook_from_buffer
+_save_buffers
+_save_characters
+_save_class_from_buffer
+_save_evil_points
+_save_gang_from_buffer
+_save_item_from_buffer
+_save_known_monster_from_buffer
+_save_message_from_buffer
+_save_monster_from_buffer
+_save_next_buffer
+_save_permanent_info
+_save_player
+_save_race_from_buffer
+_save_room_from_buffer
+_save_shop_from_buffer
+_save_spell_from_buffer
+_search_for_hidden_exits
+_secret_visible_exit
+_sell_item
+_send_feedback_mail
+_share_currency
+_shop_sells_item
+_should_give_evil
+_show_current_emulations
+_show_health
+_show_status
+_shuffle_mappings
+_silly_spell
+_slow_update_character
+_slow_update_characters
+_slow_update_monster
+_slow_update_monsters
+_slow_update_next_monster
+_sneak
+_sort_spell_list
+_spell_has_ability
+_start_emulation
+_stat_amount_used
+_stop_dragging_user
+_stop_emulation
+_stop_following
+_stop_users_exit
+_substitute_string
+_sysop_bulletin_done
+_take_monster_from_room
+_tell_game
+_tell_gang
+_tell_group
+_tell_room
+_tell_user
+_terminate_multiple_matches
+_track_monster
+_track_player
+_train_level
+_unequip_apply_item_abilities
+_update_allowed_worn_items
+_update_dynamic_stats
+_update_dynamic_with_ability
+_update_edit
+_update_kai_powers
+_update_polling_routine
+_update_room_users_stats
+_update_top_list
+_update_user_with_permanent_info
+_update_weight_carried
+_use_item_target
+_use_monster_target
+_use_no_target
+_use_player_target
+_use_spell_target
+_user_allowed_in_room
+_user_being_dragged
+_user_can_use
+_user_can_use_spell
+_user_has_ability
+_user_is_wearing
+_validate_auto_combat
+_visible_exit
+_wear_armour
+_wildcard_match
+_withdraw_gold
+_xref_users_items_polling_routine
+_xref_users_polling_routine
