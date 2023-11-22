@@ -17,6 +17,8 @@ Reposted from [Mudinfo.net](https://www.mudinfo.net/viewtopic.php?t=2050#:~:text
 Here is a list of still alive projects that have furthered MajorMUD development after it's closed source development ended in Mod9.
 
 ### Void BBS
+Running: WorldGroup 3.3
+
 Homepage: https://www.voidbbs.com
 
 Telnet: voidbbs.com:23
@@ -24,11 +26,14 @@ Telnet: voidbbs.com:23
 Kyau, the SYSOP of this BBS has modernized his BBS and utilized the databases in a modern web format. The MajorMUD itself has been customized highly with many quality-of-life edits, but kept balance and stayed close to stock.
 
 ### Bear's BBS
+Running: WorldGroup 3.x
+
 Homepage: http://bearfather.net
 
 Telnet: bbs.bearfather.net:23
 
 ### Greatermud
+Running: Custom host
 
 Homepage: http://forums.greatermud.com/forums/index.php
 
@@ -37,6 +42,7 @@ Telnet: greatermud.com:23
 I haven't played this MUD, but it seems like an entire recreate of MajorMUD, with many additions. It has since forked into Paradigm MUD or ParaMUD.
 
 ### ParaMUD
+Running: Custom host
 
 Homepage: http://forums.paramud.com
 
