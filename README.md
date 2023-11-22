@@ -23,7 +23,7 @@ Homepage: https://www.voidbbs.com
 
 Telnet: voidbbs.com:23
 
-Kyau, the SYSOP of this BBS has modernized his BBS and utilized the databases in a modern web format. The MajorMUD itself has been customized highly with many quality-of-life edits, but kept balance and stayed close to stock.
+Kyau, the SYSOP of this BBS has modernized his BBS and utilized the databases in a modern web format. The MajorMUD itself has been customized highly with many quality-of-life edits, but kept balance and stayed close to stock. Has a custom Mod10 module that was never released.
 
 ### Bear's BBS
 Running: WorldGroup 3.x
@@ -32,7 +32,9 @@ Homepage: http://bearfather.net
 
 Telnet: bbs.bearfather.net:23
 
-### Greatermud
+Heavily edited. I didn't progress past level 20 and can't properly review but it appears to keep in balance. 
+
+### GreaterMUD
 Running: Custom host
 
 Homepage: http://forums.greatermud.com/forums/index.php
@@ -47,4 +49,6 @@ Running: Custom host
 Homepage: http://forums.paramud.com
 
 Telnet mud.paramud.com:23 
+
+This is a fork after the main dev abandoned active dev on GreaterMUD
 
