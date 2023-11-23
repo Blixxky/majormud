@@ -1,0 +1,410 @@
+string::lengtherror
+xalloc
+xmsg
+string
+string::outofrange
+NULL CHECK
+Borland C++ - Copyright 1994 Borland Intl.
+Divide error
+NO MEMORY - restart!
+WCCERRS.TXT
+Limited item error (see wccerrs.txt)!
+Item error: %d %d %d %d %d %s %d
+Limited item error!
+Preparing release
+Deleting Active          
+WCCACMSR.VIR
+WCCACMSR.DAT
+Unusual error - please re-upgrade to latest version
+%d    
+Known Monsters           
+Reading items            
+Updating Users           
+%s %d    
+                               
+Updating Rooms      
+M %d R %d     
+WCCMAP01.ANS
+Update room error!
+Clearing Limited List      
+Saving Limited List      
+WCCRECOV.FLG
+MajorMUD Recovery required
+Fixing user %s.
+Fixed user %s.
+No user fixed - please try again.
+Map %d Room %d     
+%s\%s
+WCCUSERS.DAT
+WCCBANKS.DAT
+WCCGANGS.DAT
+wccmerge.err
+Errors appended to wccmerge.err
+%s is a duplicate user.
+Updating Banks           
+%s is a duplicate bank account.
+Updating Gangs           
+%s is a duplicate gang.
+UNSUPPORTED FEATURE
+%s was a duplicate user.
+%s could not be inserted!.
+%s has been inserted.
+%s was not found in source database.
+Are you sure you want to do this? (THERE IS NO UNDO) 
+BBSGEN.DAT
+WCCMMPLS_DESC
+WCCMMPLS_REG
+Failed
+Visible Items
+Hidden Items
+wcccntst.flg
+You must finish the last contest first
+wcccntst.res
+Failed to open contest file %s!  Contest not started yet.
+Contest in progress
+Contest starting
+  Style  
+Working
+Placed a %s rune in map %d room %d.
+hidden
+visible
+Contest started
+You must start a contest before finishing one
+Failed to open results file %s!  Contest not finished yet.
+Finishing contest....
+Found hidden in room %d on map %d.
+Found on user %s (Real userid: %s).
+Contest Finished.
+You must start a contest before getting the status of one
+Failed to open results file %s!  Could not generate status.
+Status of contest....
+Found visible in room %d on map %d.
+Contest Status Finished.
+Start New Contest
+Finish Old Contest
+Get status of Contest
+Exit
+  Options  
+                                             
+WCCITOWN.DAT
+WCCITOWN.VIR
+WCCMMUD.MCV
+Cannot open WCCMMUD.MCV!
+NONE
+COPPER
+SILVER
+GOLD
+PLATINUM
+USER_DEFINED
+Sweeping Rooms      
+M %lu R %lu     
+Database Recovery
+Coin Sweep (based on CNF options)
+Remove Items from all rooms
+Ganghouse Cleanup Options
+Remove items from non-ganghouses
+Action Editor (MajorMUD Plus - EE)
+Clear Plus data (MajorMUD Plus - EE)
+Contests (MajorMUD Plus - EE)
+WCCMMPLS.MCV
+-fix
+-merge
+You need MajorMUD Plus - Entertainment Edition to merge databases.
+-restoreuser
+You need MajorMUD Plus - Entertainment Edition to restore users.
+-recover
+-needed
+-wccrelease
+-hidden
+-visible
+-start
+-status
+-finish
+-fast
+-contest
+You must have MajorMUD Plus - Entertainment Edition to use contest mode.
+No arguments -- Menu driven
+-recover     -- Just Recover
+-needed      -- Just Recover, but only if needed
+-fast        -- Perform a 'fast' recovery (obsoleted option)
+                (used in conjunction with -recover or -needed)
+-?           -- This display
+-contest                  -- Contest Menu
+-contest -start           -- Start contest with menu choice
+-contest -start -hidden   -- Start contest with hidden items
+-contest -start -visible  -- Start contest with hidden items
+-contest -finish          -- Finish contest
+-contest -status          -- Get status of contest
+.\%%s
+WCCRACE.DAT
+WCCCLASS.DAT
+WCCMP001.DAT
+WCCSHOPS.DAT
+WCCITEMS.DAT
+WCCSPELS.DAT
+WCCKNMSR.DAT
+WCCMSG.DAT
+WCCTEXT.DAT
+WCCACTS.DAT
+wccmmutl.bin
+Recovery Required
+wccrecov.flg
+Cleanup needed on board startup
+The MajorMUD Action Editor is only available with MajorMUD Plus
+Please contact Metropolis to purchase MajorMUD Plus
+at 913-661-0601 or www.majormud.com
+You need MajorMUD Plus to be able to clear registries and descriptions
+Please contact Metropolis to purchase MajorMUD Plus at
+You need MajorMUD Plus to be able to run contests
+Please contact Metropolis to purchase
+MajorMUD Plus at 913-661-0601 or www.majormud.com
+%ld
+Out of memory
+ -\|/
+%lu
+Yes
+WCCBOX.BIN
+TMP.TXT
+Filename: 
+File Exists! Overwrite? :
+Remove Gang House Floor Items        
+Remove Gang House User Items       
+Remove Gang Shop Items              
+Shutdown Gang House  (All above)    
+Exit
+Gang House Number    
+  Gang House Cleanup Options  
+All cleanup actions made will be logged to wccmmutl.log.  
+  Gang House - Close Down gang house!   
+If Gang House DEEDS are removed they
+  will be restocked into shops next 
+           game cleanup!            
+All gang House Items will be removed
+       from all Realm rooms!        
+Are you sure you wish to close this gang house down? 
+  Gang House - Remove Gang Shop Items  
+Clear items from all gang shops for this gang house? 
+  Gang House - Remove User Items
+Really clear items from all users for this gang house? 
+  Gang House - Remove Floor Items  
+   All items will be removed from   
+      Gang House floors only!       
+Clear all floor items from this gang house? 
+  Gang house user cleanup.
+Do you want to remove any Gang House DEEDS from users? 
+WCCMMUTL: Clearing User Items for Gang House %d
+WCCMMUTL: Removing Item %s from %s
+WCCMMUTL: Removing Deed Item %s from %s
+WCCMMUTL: Removing Key %d
+WCCMMUTL: Checking user %s map/room position.
+WCCMMUTL ERROR: Couldn't get room data for user %s.
+WCCMMUTL: Moving use %s to reincarnation room.
+WCCMMUTL: Failed player %s db update! Continuing ... 
+                                   
+WCCMMUTL: Clearing items from Gang House %d floor.
+  Gang house floor cleanup.
+Map %d Room %d     
+Cleared Map %d Room %d            
+WCCMMUTL: Gang house %d floor sweep MAP %d ROOM %d
+                                    
+WCCMMUTL: Clearing items from Gang House %d shops.
+  Gang house shop cleanup.
+Map %d Room %s         
+Couldn't get shop data Map %s Room %s Shop %s
+Found shop data  Map %s Room %s Shop %s
+Failed update of shop data!
+                                     
+                                                  
+wccmmutl.log
+%s %s:
+%-29.29s
+Yes
+No 
+%-74.74s
+WCCBOX.BIN
+The following format specifiers are allowed in actions:
+%%i - Name of the initiator of the action
+%%p - his or her based on the initiator
+%%P - him or her based on the initiator
+%%t - Name of the target of the action
+%%fn - set foreground colour (n=0-7)
+%%bn - set background colour (n=0-7)
+%%B - Bold
+%%N - Normal
+%%U - Underline
+%%L - Blink
+%%R - Reverse
+Done
+Next
+Previous
+New
+Change
+Delete
+Help
+ljnee.bin
+wccaedit.bin
+Are you sure: 
+@ `
+P0p
+GALGSBL.DLL
+GETRNO: Error opening GALGSBL.DLL for input.
+ReG#
+GETRNO: Error reading GALGSBL.DLL!
+GETRNO: Cannot locate registration number.
+OPEN
+STAT
+BEGIN-XACTION
+END-XACTION
+QUERY
+QUERY-NP
+GET
+OBTAIN
+ABSOLUTE
+GET-ABSOLUTE
+STEP
+UPDATE
+INSERT
+DELETE
+BTRIEVE CLOSE ERROR %d ON FILE "%s"
+CREATE
+UNLOCK
+%s ERROR %d
+BTRIEVE %s ON FILE "%s"
+Run BTRIEVE /P:2048 first, before running this program!
+N O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+N O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+N O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+N O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+N O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+There is not enough memory to continue.
+Please either reduce your memory requirements
+or install more memory, and try again.
+    << Press any key to proceed >>
+         
+ YOU SHOULD REBOOT YOUR COMPUTER 
+Unexpected exit, no recovery method supplied...
+%s %s
+CATASTRO.TXT
+(Can't open CATASTRO.TXT)
+%s %s 
+%s,%s
+(Can't re-open CATASTRO.TXT)
+%s,%s
+                One moment please...
+                                    
+%-*.*s
+%-*s
+(more)
+000
+JAN
+FEB
+MAR
+APR
+MAY
+JUN
+JUL
+AUG
+SEP
+OCT
+NOV
+DEC
+XXX
+XXX
+XXX
+;Zx
+%02d/%02d/%02d
+%02d:%02d:%02d
+%02d-%s-%02d
+ %2d %-5.5s
+ %d
+%d/%d/%d
+%d:%d:%d
+%-*s
+INISCN UNABLE TO OPEN "%s" FOR INPUT
+INISCN ERROR READING "%s"
+MJRBBS.CFG
+CANNOT FIND MJRBBS.CFG
+NLingo=
+MJRBBS.CFG IS MISSING THE "NLingo=" LINE
+LNG
+MORE THAN NLINGO "LNG=" LINES IN MJRBBS.CFG
+FIRST LNGXXX= OPTION IN MJRBBS.CFG MUST BE LNG=
+DSC=
+EXT=
+EDT=
+YES=
+NO=
+LESS THAN NLINGO "LNG=" LINES IN MJRBBS.CFG
+ANSI
+English
+bbsmajor.mcv
+COLOR
+AUTO
+MCVPATH
+CANNOT FIND "%s"
+CANNOT READ "%s" VARIABLES
+CANNOT READ "%s" POINTER ARRAY
+TOO MANY LANGUAGES (%d) & MESSAGES (%d) IN "%s"
+CANNOT READ "%s" LENGTH TABLE
+INIMSG NOT CALLED
+MESSAGE NUMBER %d OUT OF RANGE IN %s
+CANNOT SEEK MESSAGE NUMBER %d (LANGUAGE %d) IN %s
+HANDLE=%d FLAGS=%04x ERRNO=%d
+CANNOT READ MESSAGE NUMBER %d (LANGUAGE %d) IN %s
+MSG:%s/%d
+OVERSIZED SPR() CALL FROM %04X:%04X
+"%s"
+TFSCAN:  Path too long:
+"%s"
+TFSCAN: Cannot find "%s" file
+Yes
+ERROR IN YES/NO OPTION %d IN %s
+TMP
+.$$$
+),(((((),(((
+*(((
+(null)
+Error 0
+Invalid function number
+No such file or directory
+Path not found
+Too many open files
+Permission denied
+Bad file number
+Memory arena trashed
+Not enough memory
+Invalid memory block address
+Invalid environment
+Invalid format
+Invalid access code
+Invalid data
+No such device
+Attempted to remove current directory
+Not same device
+No more files
+Invalid argument
+Arg list too big
+Exec format error
+Cross-device link
+Math argument
+Result too large
+File already exists
+Possible deadlock
+Unknown error
+         !!!!!                  
+@@@@@@@@@@@@@@@
+@@@@@@@
+@@@@@@
+@@@@ 
+print scanf : floating point formats not linked
+Out of memory
+Abnormal program termination
+;Zx
+EST
+EDT
+<notype>
+**BCCxh1
+?@?
+String reference out of range
+String reference out of range
+String reference out of range
