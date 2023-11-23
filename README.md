@@ -1,3 +1,12 @@
+```
+███╗   ███╗ █████╗      ██╗ ██████╗ ██████╗ ███╗   ███╗██╗   ██╗██████╗ 
+████╗ ████║██╔══██╗     ██║██╔═══██╗██╔══██╗████╗ ████║██║   ██║██╔══██╗
+██╔████╔██║███████║     ██║██║   ██║██████╔╝██╔████╔██║██║   ██║██║  ██║
+██║╚██╔╝██║██╔══██║██   ██║██║   ██║██╔══██╗██║╚██╔╝██║██║   ██║██║  ██║
+██║ ╚═╝ ██║██║  ██║╚█████╔╝╚██████╔╝██║  ██║██║ ╚═╝ ██║╚██████╔╝██████╔╝
+╚═╝     ╚═╝╚═╝  ╚═╝ ╚════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═════╝ 
+```                                                                        
+
 # This Project
 
 MajorMUD was a few-of-it's-kind MORPG (multiplayer online role-playing game) designed for Dial-up BBS's, and later Telnet BBS's. This repo will stand as an ongoing archival project, with additional growth. I released the last patch for MajorMUD 1.11p that enabled SYSOPs to custom edit their MajorMUD (this would have been circa 2000). This enabled SYSOPs to have all of the extensions up to Mod9, the final release; and be able to modify the Btrieve database records to add their own content.
