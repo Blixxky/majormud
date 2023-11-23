@@ -1,0 +1,193 @@
+MZP
+This program must be run under Microsoft Windows.
+#@xx
+p0,
+WCCMMPLS
+_RELOAD__WCCMMPLS
+_LJNMMPLS_STTROU
+_LJNMMPLS_INJROU
+_LJNMMPLS_STSROU
+_PLUS_MENU_DISPLAY
+_PLUS_MENU_COMMAND
+_PLUS_USER_DESCRIPTION
+_RELOAD_INI_SETTINGS
+_MAJORMUD_PLUS_GLOBALS
+!_BEGIN_LISTING_OUTSTANDING_DESCRI
+_CHARGE_USER_TO_BUY_LIFE
+_ADD_LIFE_TO_USER
+GALGSBL
+DOSCALLS
+PHAPI
+DOSCREATEDSALIAS
+MAJORBBS
+WCCMMUD
+_REGISTER_MUD_ADDON
+_RETRIEVE_PUBLIC_USERINFO _RETRIEVE_PUBLIC_USRNUM_USERINFO
+_ADDON_ADDING_LIFE_TO_USER
+_MAJORMUD_SEND_MAIL
+_ADDON_ADJUST_USER_WEALTH
+_GET_MUD_INI_VALUE
+MajorMUD Plus
+_INIT__WCCMMPLS
+UVW
+ C&8
+_^]
+_^]
+_^]
+YRP
+YRP
+_^]
+YRP
+YRP
+YRP
+_^]
+YRP
+_^]
+u&j
+RPj
+Yj@h
+jjj
+YRP
+h@Bj
+h@Bj
+j<j
+j<j
+YRP
+VW3
+_^]
+_^]
+YRP
+t'h
+YRP
+YRP
+YRPj
+YRP
+YRP
+_^]
+t6j
+t6j
+t6j 
+t6j!
+t6j"
+t6j#
+t6j$
+t6j%
+t6j&
+t6j'
+_^]
+YRP
+u6j
+YRP
+Y=Q
+Yj6
+Yj5
+YRP
+Yj5
+_^]
+_^]
+t+j9
+Yj5
+RPj
+RPj
+Y=A
+RPj
+RPj
+t3j
+RPj
+ADILRSX
+ADLVX
+#[$
+$,$
+ELRSX
+G!}!
+!N!
+!8'5%
+"&"
+5#z VW
+VW3
+VW_^
+VW_^
+_^]
+t&h
+_^]
+?*t
+_^]
+?As
+?Zv
+HPj
+u2j
+MajorMUD Plus - Entertainment
+1.0e-WG (Feb 17 2005 11:10:46)
+1.0e-WG
+tcplibm.msg
+SUBBBS
+WCCMMPLS_DESC
+%s bought mud description
+Time to charge him/her!
+Description needs approval
+<None>
+PLUS_PURCHASE_EMAIL_USERID
+SEND_EMAIL_FOR_PURCHASES
+WCCMMPLS.MDF
+WCCMMPLS.MCV
+Cannot open WCCMMPLS.MCV!
+MajorMUD Plus - Demo Mode
+Expires on %s
+WCCMMPLS_REG
+[0;37m| 
+] 1->
+%s%s
+[0;37m| 
+] 2->
+[0;37m| 
+] 3->
+[0;37m| 
+] 4->
+[0;37m| 
+] 5->
+[0;37m| 
+] 6->
+[0;37m| 
+] 7->
+[0;37m| 
+] 8->
+[0;37m| 
+] 9->
+[0;37m| 
+]10->
+[0;37m| 
+]11->
+Default based on time played
+%s%d
+Male
+Female
+None
+Current registry settings:
+Press <enter> to stop the listing.
+No descriptions found!
+%s bought mud life
+Yes
+Removed custom registry for %s
+%d descriptions found.
+Start listing at what letter (enter='a'):
+Delete which user's description? 
+Deleting the description for %s:
+No description found for that user.
+View which user's description? 
+[1;31m| 
+]This description has not been validated yet.
+No description found.
+Done.
+Approve which user's description? 
+This will cost you %s credits, %s copper, and %s days off your membership.
+%ld
+Do you wish to continue? 
+Not implemented yet.
+[1;30m[
+[37m*
+[30m] . 
+[0mMajorMUD Plus Extensions
+%ld
+Borland C++ - Copyright 1991 Borland Intl.
+Divide error
+Abnormal program termination
